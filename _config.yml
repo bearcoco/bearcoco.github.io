@@ -11,10 +11,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 
 # add sreach
-search: false
+search: true
 
 # SNS settings
-RSS: true
+RSS: false
 weibo_username: bypanda
 #instagram_username: lovemadao
 #jianshu_username: erLDs1
