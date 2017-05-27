@@ -3,10 +3,10 @@
   <channel>
     <title>ZGX Blog</title>
     <description>刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 May 2017 01:09:09 +0800</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 01:09:09 +0800</lastBuildDate>
+    <link>http://www.zgx.ac.cn/</link>
+    <atom:link href="http://www.zgx.ac.cn/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 28 May 2017 01:51:14 +0800</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 01:51:14 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -163,8 +163,8 @@
 
 </description>
         <pubDate>Sun, 21 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/21/hongkong/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/21/hongkong/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/21/hongkong/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/21/hongkong/</guid>
         
         <category>生活</category>
         
@@ -254,8 +254,8 @@
 &lt;p&gt;部署到Github pages请移驾到&lt;a href=&quot;http://www.zgx.ac.cn/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/17/windows-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/17/windows-jekyll/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/17/windows-jekyll/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/17/windows-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -387,8 +387,8 @@ git push origin master
 
 </description>
         <pubDate>Mon, 15 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/15/mac-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/15/mac-jekyll/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/15/mac-jekyll/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/15/mac-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -454,8 +454,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 </description>
         <pubDate>Thu, 04 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/04/vue-cli/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/04/vue-cli/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/04/vue-cli/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/04/vue-cli/</guid>
         
         <category>前端开发</category>
         
@@ -527,8 +527,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;p&gt;本文转载自&lt;a href=&quot;http://weibo.com/huxpro&quot;&gt;黄玄&lt;/a&gt;&lt;a href=&quot;http://huangxuan.me&quot;&gt;Hux Blog&lt;/a&gt;。&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Apr 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/04/22/version/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/22/version/</guid>
+        <link>http://www.zgx.ac.cn/2017/04/22/version/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/04/22/version/</guid>
         
         <category>前端开发</category>
         
@@ -555,8 +555,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 </description>
         <pubDate>Mon, 06 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/03/06/jiami/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/06/jiami/</guid>
+        <link>http://www.zgx.ac.cn/2017/03/06/jiami/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/03/06/jiami/</guid>
         
         <category>前端开发</category>
         
@@ -625,8 +625,8 @@ b. 最后输入cordova platform add android #添加 Android 平台
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170307/003550831.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/02/11/app/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/11/app/</guid>
+        <link>http://www.zgx.ac.cn/2017/02/11/app/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/02/11/app/</guid>
         
         <category>前端开发</category>
         
@@ -732,8 +732,8 @@ OK，现在只差最后一步了，我们已经将图片居中裁剪的封装成
 
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/01/09/imgBox/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/09/imgBox/</guid>
+        <link>http://www.zgx.ac.cn/2017/01/09/imgBox/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/01/09/imgBox/</guid>
         
         <category>前端开发</category>
         
@@ -807,8 +807,8 @@ OK，现在只差最后一步了，我们已经将图片居中裁剪的封装成
 
 </description>
         <pubDate>Mon, 02 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/01/02/sunmery2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/02/sunmery2016/</guid>
+        <link>http://www.zgx.ac.cn/2017/01/02/sunmery2016/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/01/02/sunmery2016/</guid>
         
         <category>生活</category>
         
@@ -878,8 +878,8 @@ OK，故事开始了，男一号叫泷，女一号叫三叶。
 &lt;p&gt;-END-&lt;/p&gt;
 </description>
         <pubDate>Sun, 25 Dec 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2016/12/25/youName/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/25/youName/</guid>
+        <link>http://www.zgx.ac.cn/2016/12/25/youName/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2016/12/25/youName/</guid>
         
         <category>生活</category>
         
