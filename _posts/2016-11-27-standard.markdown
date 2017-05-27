@@ -5,6 +5,7 @@ subtitle:   "借鉴别人和自己的工作经验总结的一些前端代码规�
 date:       2016-11-27
 author:     "zgx"
 header-img: "img/post-bg-js-version.jpg"
+catalog: true
 tags:
     - 前端开发
     - html

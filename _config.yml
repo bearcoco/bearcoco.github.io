@@ -2,20 +2,28 @@
 title: ZGX Blog
 SEOTitle: 张冠雄的博客 | ZGX Blog
 header-img: img/home-bg.jpg
-email: gx@zgx.ac.cn
-description: "ZGX"
-keyword: ""
-url: "http://zgx.ac.cn"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+email: bypandacn@gmail.com
+description: "刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。"
+keyword: "张冠雄, ZGX, 张冠雄的博客, 个人博客, 互联网, 前端, 旅游"
+url: "http://www.zgx.ac.cn"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
+
+# add sreach
+search: false
 
 # SNS settings
-RSS: false
-weibo_username:     bypanda
-zhihu_username:     bypanda
-github_username:    bypanda
-facebook_username:  bypanda
+RSS: true
+weibo_username: bypanda
+#instagram_username: lovemadao
+#jianshu_username: erLDs1
+#linkedin_username: mayongtao
+#zhihu_username: lengli
+github_username: zgxaccn
+twitter_username: bypanda
+facebook_username: bypanda
+#lofter_username: matengteng
 
 
 
@@ -24,7 +32,7 @@ facebook_username:  bypanda
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -49,25 +57,26 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: bypanda
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
-# Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Baidu Analytics 
+ba_track_id: de1ce458db68d7a3d74998a4cc6e6c4f
+
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: zgx.ac.cn
+ga_track_id: 'UA-79793350-1'            # Format: UA-xxxxxx-xx
+ga_domain: www.zgx.ac.cn 
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar-about-description: "既然开始了，那就做最好的。"
 sidebar-avatar: /img/zgx.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -78,22 +87,25 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
 # Friends
-friends: [
-    {
-        title: "ZGX Blog",
-        href: "http://zgx.ac.cn"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+friends: [    
+    {   
+        title: "Hux Blog",   
+        href: "http://huangxuan.me"   
+    },
+    {   
+        title: "Teng Blog",   
+        href: "http://tengblog.com/"    
+    },
+    {   
+        title: "前端-为网而生",   
+       href: "http://beforweb.com/front-end"    
     }
 ]
+

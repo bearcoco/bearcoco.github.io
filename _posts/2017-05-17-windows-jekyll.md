@@ -5,6 +5,7 @@ subtitle:   "使用Jekyll本地搭建开发环境"
 date:       2017-05-17
 author:     "zgx"
 header-img: "img/post-bg-js-version.jpg"
+catalog: true
 tags:
     - 前端开发
     - 博客
