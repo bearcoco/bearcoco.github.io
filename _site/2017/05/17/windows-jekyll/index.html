@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ZGX">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>在windows上安装Jekyll - 张冠雄的博客 | ZGX Blog</title>
+
+    <link rel="canonical" href="http://localhost:4000/2017/05/17/windows-jekyll/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">ZGX Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-js-version.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/post-bg-js-version.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#前端开发" title="前端开发">前端开发</a>
+                        
+                        <a class="tag" href="/tags/#博客" title="博客">博客</a>
+                        
+                        <a class="tag" href="/tags/#jekyll" title="jekyll">jekyll</a>
+                        
+                    </div>
+                    <h1>在windows上安装Jekyll</h1>
+                    
+                    
+                    <h2 class="subheading">使用Jekyll本地搭建开发环境</h2>
+                    
+                    <span class="meta">Posted by zgx on May 17, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p>前面安装jekyll是在公司的mac上进行安装的，而家里的是windows系统的笔记本，所以要发表博客的话肯定要安装好环境了，但windows的安装又跟mac的不一样。折腾了一下，感觉是比在mac上安装来得麻烦。以下呢？就是在windows上安装jekyll的步骤以及一些可能遇到的问题。</p>
+
+<p>首先呢在这里就不再介绍jekyll是什么了，可以访问前面写的<a href="http://www.zgx.ac.cn/2017/05/15/mac-jekyll/">在mac上安装Jekyll</a></p>
+
+<p>搭建jekyll基本都满足如下步骤:</p>
+<ul>
+  <li>安装ruby(2.0.0以上)，并且安装DevKit。</li>
+  <li>切换ruby的source来源</li>
+  <li>通过gem命令安装jekyll</li>
+  <li>github上fork心仪的jekyll模板，本地jekyll serve运行相应的博客</li>
+</ul>
+
+<h3 id="ruby">安装ruby</h3>
+<p><strong>下载ruby</strong>
+在windows上它不像mac有自带ruby，所有首先安装ruby，到<a href="http://rubyinstaller.org/downloads/">ruby下载地址</a>下载对应的ruby版本。推荐下载2.0.0，其他的版本没实践过。然后根据自己电脑的系统选择对应的ruby，当然还有对应DEVELOPMENT KIT的下载。
+<strong>安装ruby2.0.0</strong>
+下载完安装包后，先安装rubyinstaller, 记得尽量以<strong>管理员的权限</strong>安装 安装时会有三个选项。
+<img src="http://function.bypanda.cn/ruby.jpg" alt="环境变量" />
+请全部选上。全部选上在安装完毕后，环境变量也会自动配置。安装完之后win+R进入控制台输入命令<strong>ruby -v</strong>，如果显示版本号则表示安装成功。</p>
+<h3 id="evelopment">安装EVELOPMENT</h3>
+<p>安装完ruby后，接着安装DevKit(请确保管理员权限安装) 点击安装，选择完对应的目标（默认地址就行了）后，点击确认即会自动提取。
+在windows的命令行cd到安装的目录下，输入</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>ruby dk.rb init
+</code></pre>
+</div>
+<p>待运行完毕后，该目录中会自动生成一个config.yml文件。将文件的内容修改成以下：
+<img src="http://function.bypanda.cn/ruby2.png" alt="config" />
+也就是在文件内容的后面加上：<strong>- C:\Ruby200-x64</strong> ，这个表示的是刚才安装ruby的路径地址。修改完之后，继续在控制台输入命令：</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>ruby dk.rb install
+</code></pre>
+</div>
+<p>至此，代表Development Kit已经正确安装并成功配置。</p>
+
+<h3 id="source">更改默认的source源</h3>
+<p>鉴于官方源无法访问，所以我们得更换为可以使用的源，这里推荐使用<a href="https://gems.ruby-china.org/">ruby china源</a>，大致步骤如下:</p>
+
+<ul>
+  <li>先键入命令<strong>gem sources -l</strong>查看当前已经添加的源(默认应该是同时有官方源和淘宝源)</li>
+  <li>然后通过 <strong>gem sources -r https://rubygems.org/ 和 gem sources -r https://ruby.taobao.org/</strong> 分别移除官方源和淘宝源 (注意，请对比实际，移除自己已经添加的源即可，可以改为自己上一步中查询出来的地址)</li>
+  <li>通过 <strong>gem sources -a http://gems.ruby-china.org</strong> 添加了ruby china的可用源</li>
+  <li>修改来源后可以通过<strong>gem sources -l</strong>查看是否正确修改</li>
+</ul>
+
+<h3 id="jekyll">安装jekyll</h3>
+<p>安装jekyll前先按照依赖包bundler，输入命令：</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>gem install bundler
+</code></pre>
+</div>
+<p>按照依赖包bundler之后，直接安装jekyll，输入命令：</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>gem install jekyll
+</code></pre>
+</div>
+<p>安装需要一定的时间，过一段时间正常安装后即代表jekyll可以开始使用了。</p>
+
+<h3 id="jekyll-1">使用jekyll</h3>
+<p>这个步骤跟前面在mac上安装使用jekyll是差不多的。</p>
+
+<p>首先，你可以到<a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a>上面找一个自己喜欢的jekyll模板，然后将对应的项目git clone到自己本地的目录下，同样用cmd命令进入对应的目录。</p>
+
+<p>输入以下命令生成博客，默认生成再_site目录下：</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>jekyll build
+</code></pre>
+</div>
+<p>开启jekyll本地预览服务：</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>jekyll serve
+</code></pre>
+</div>
+<p>在浏览器中输入 http://localhost:4000 即可访问博客站点。
+如果出现Error：jekyll-paginate
+<img src="http://function.bypanda.cn/jekyll.jpg" alt="error" />
+输入命令：</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>gem install jekyll-paginate
+</code></pre>
+</div>
+<p>再不能访问请检查_config.yml配置文件是否需要修改。</p>
+
+<p>部署到Github pages请移驾到<a href="http://www.zgx.ac.cn/2017/05/15/mac-jekyll/">在mac上安装Jekyll</a></p>
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/05/15/mac-jekyll/" data-toggle="tooltip" data-placement="top" title="在mac上安装Jekyll">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2017/05/21/hongkong/" data-toggle="tooltip" data-placement="top" title="香港一日游">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+                <!-- 多说评论框 start -->
+                <div class="comment">
+                    <div class="ds-thread"
+                        data-thread-key="/2017/05/17/windows-jekyll"
+                        data-title="在windows上安装Jekyll"
+                        data-url="http://localhost:4000/2017/05/17/windows-jekyll/" >
+                    </div>
+                </div>
+                <!-- 多说评论框 end -->
+                
+
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#前端开发" title="前端开发" rel="9">
+                                    前端开发
+                                </a>
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#JavaScript" title="JavaScript" rel="4">
+                                    JavaScript
+                                </a>
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#生活" title="生活" rel="3">
+                                    生活
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#博客" title="博客" rel="2">
+                                    博客
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#jekyll" title="jekyll" rel="2">
+                                    jekyll
+                                </a>
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://zgx.ac.cn">ZGX Blog</a></li>
+                    
+                        <li><a href="#">Foo</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                        <li><a href="#">Example Friends</a></li>
+                    
+                        <li><a href="#">It helps SEO</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User by Hux
+    var _user = 'huxblog';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; ZGX Blog 2017
+                    <br>
+                    Theme by <a href="http://huangxuan.me">Hux</a> 
+                    <!-- <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-49627206-1';
+    var _gaDomain = 'zgx.ac.cn';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '4cc1f2d8f3067386cc5cdb626a202900';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

@@ -1,0 +1,410 @@
+---
+layout:     post
+title:      "代码规范"
+subtitle:   "借鉴别人和自己的工作经验总结的一些前端代码规范"
+date:       2016-11-27
+author:     "zgx"
+header-img: "img/post-bg-js-version.jpg"
+tags:
+    - 前端开发
+    - html
+---
+
+
+## 命名规则
+### 项目命名
+* 项目名全部采用小写方式，以下划线分隔。 
+
+    例如：my_project_name
+
+### 目录命名
+
+* 目录名参照上一条规则；
+* 有复数结构时，要采用复数命名法。
+
+    例如： scripts, styles, images, data_models
+
+### JavaScript文件命名
+
+
+* 所有js文件名，多个单词组成时，采用下划线连接方式。 
+
+    例如： 账号模型文件 account_model.js
+
+### CSS文件命名
+
+
+*  多个单词组成时，采用下划线连接方式。
+
+    例如：retina_sprites.css
+
+###  HTML文件命名
+
+*  多个单词组成时，采用下划线连接方式。
+
+    例如: error_report.html
+
+
+## HTML规范
+
+### 语法
+* 缩进使用soft tab（4个空格）；
+* 嵌套的节点应该缩进（四个空格）;
+* 在属性上，使用双引号，不要使用单引号;
+* 不要忽略可选的关闭标签。
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page title</title>
+    </head>
+    <body>
+        <img src="images/company_logo.png" alt="Company">
+        <h1 class="hello-world">Hello, world!</h1>
+    </body>
+</html>
+```
+
+### HTML5 doctype
+
+* 在每个 HTML 页面开头使用这个简单地 doctype 来启用标准模式，使其每个浏览器中尽可能一致的展现；
+* 虽然doctype不区分大小写，但是按照惯例，doctype大写。
+
+```html
+<!DOCTYPE html>
+<html>
+	...
+</html>
+```
+### 字符编码
+
+*  通过声明一个明确的字符编码，让浏览器轻松、快速的确定适合网页内容的渲染方式，通常指定为'UTF-8'。
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    ...
+</html>
+```
+### 引入CSS, JS文件
+
+*  根据HTML5规范, 通常在引入CSS和JS时不需要指明 type，因为 text/css 和 text/javascript 分别是他们的默认值。
+
+```html
+<!-- External CSS -->
+<link rel="stylesheet" href="code_guide.css">
+<!-- In-document CSS -->
+<style>
+    ...
+</style>
+<!-- External JS -->
+<script src="code_guide.js"></script>
+<!-- In-document JS -->
+<script>
+    ...
+</script>
+```
+### 属性顺序
+
+*  属性应该按照特定的顺序出现以保证易读性；
+    1. class
+    1. id
+    1. name
+    1. data-*
+    1. src, for, type, href, value , max-length, max, min, pattern
+    1. placeholder, title, alt
+    1. aria-*, role
+    1. required, readonly, disabled
+
+*  class是为高可复用组件设计的，所以应处在第一位；
+
+*  id更加具体且应该尽量少使用，所以将它放在第二位。
+
+```html
+    <a class="..." id="..." data-modal="toggle" href="#">Example link</a>
+    <input class="form-control" type="text">
+    <img src="..." alt="...">
+```
+### boolean属性
+
+*  boolean属性指不需要声明取值的属性，XHTML需要每个属性声明取值，但是HTML5并不需要；
+
+```html
+<input type="text" disabled>
+<input type="checkbox" value="1" checked>
+<select>
+    <option value="1" selected>1</option>
+</select>
+```
+### 减少标签数量
+* 在编写HTML代码时，需要尽量避免多余的父节点；
+* 很多时候，需要通过迭代和重构来使HTML变得更少。
+
+```html
+<!-- Not well -->
+<span class="avatar">
+    <img src="...">
+</span>
+
+<!-- Better -->
+<img class="avatar" src="...">
+```
+### 实用高于完美
+* 尽量遵循HTML标准和语义，但是不应该以浪费实用性作为代价；
+* 任何时候都要用尽量小的复杂度和尽量少的标签来解决问题。
+
+## CSS规范
+
+### 语法
+* 缩进使用soft tab（4个空格）。
+* 每个声明块的左花括号前添加一个空格。
+* 声明块的右花括号应当单独成行。
+* 每条声明语句的 : 后应该插入一个空格。
+* 每条声明都应该独占一行。
+* 所有声明语句以分号结尾，最后一条声明语句后面的分号是可选的，但是，如果省略这个分号，代码可能更易出错。
+* 对于以逗号分隔的属性值，每个逗号后面都应该插入一个空格（例如，box-shadow）。
+* 不要在 rgb()、rgba()、hsl()、hsla() 或 rect() 值的内部的逗号后面插入空格。
+* 对于属性值或颜色参数，省略小于 1 的小数前面的 0 （例如，.5 代替 0.5；-.5px 代替 -0.5px）。
+* 十六进制值应该全部小写，例如，#fff。
+* 尽量使用简写形式的十六进制值，例如，用 #fff 代替 #ffffff。
+* 为选择器中的属性添加双引号，例如，input[type="text"]。
+* 避免为 0 值指定单位，例如，用 margin: 0; 代替 margin: 0px;。
+
+```css
+/* Bad CSS */
+.selector, .selector-secondary, .selector[type=text] {
+    padding:15px;
+    margin:0px 0px 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF
+}
+
+/* Good CSS */
+.selector,
+.selector-secondary,
+.selector[type="text"] {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
+}
+```
+### CSS书写顺序 
+* 位置属性(position, top, right, z-index, display, float等)
+* 大小(width, height, padding, margin)
+* 文字系列(font, line-height, letter-spacing, color- text-align等)
+* 背景(background, border等)
+* 其他(animation, transition等)
+
+```css
+/* Bad CSS */
+.example {                                         
+	color: red;
+	z-index: 10;
+	background-color: #333;
+	display: block;
+	font-size: 15px;
+}     
+                                                 
+/* Good CSS */
+.example {                                         
+    z-index: 10;
+	display: block;
+	font-size: 15px;
+	color: red;
+	background-color: #333;
+}  
+```
+### CSS缩写属性
+
+* CSS有些属性是可以缩写的，比如padding,margin,font等等，这样精简代码同时又能提高用户的阅读体验 。
+
+```css
+/* Bad example */
+.list-box {
+	border-top-style: none;
+	font-family: serif;
+	font-size: 100%;
+	line-height: 1.6;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0;
+}
+
+/* Good example */
+.list-box {
+	border-top: 0;
+	font: 100%/1.6 serif;
+	padding: 0 10px 10px;
+}
+```
+
+*  在需要显示地设置所有值的情况下，应当尽量限制使用简写形式的属性声明。过度使用简写形式的属性声明会导致代码混乱，并且会对属性值带来不必要的覆盖从而引起意外的副作用。常见的滥用简写属性声明的情况如下：
+    1. padding
+    1. margin
+    1. font
+    1. background
+    1. border
+    1. border-radius
+
+```css
+/* Bad example */
+.element {
+    margin: 0 0 10px;
+    background: red;
+    background: url("image.jpg");
+    border-radius: 3px 3px 0 0;
+}
+
+/* Good example */
+.element {
+    margin-bottom: 10px;
+    background-color: red;
+    background-image: url("image.jpg");
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+```
+
+### CSS样式表文件命名
+* 主要的 master.css
+* 模块 module.css
+* 基本共用 base.css
+* 布局、版面 layout.css
+* 主题 themes.css
+* 专栏 columns.css
+* 文字 font.css
+* 表单 forms.css
+* 补丁 mend.css
+* 打印 print.css
+
+### CSS命名规范
+
+*  CSS选择器命名规范
+    1. 长名称或词组可以使用中横线来为选择器命名。
+    1. 不能用“_”下划线来命名CSS选择器，为什么呢？一些浏览器已经不允许使用下划线来命名CSS选择器(就是不兼容);能良好区分JavaScript变量命名.
+
+```css
+/* Bad example */
+.maintitle {
+	color: #333;
+}
+.main_title {
+	color: #333;
+}
+
+/* Good example */
+.main-title {
+	color: #333;
+}
+```
+
+
+
+*  常用的CSS命名规则
+    1. 头：header
+    1. 内容：content
+    1. 尾：footer
+    1.  导航：nav
+    1. 侧栏：sidebar
+    1. 栏目：column
+    1. 页面外围控制整体布局宽度：wrapper
+    1. 左右中：left right center
+    1. 登录条：loginbar
+    1. 标志：logo
+    1. 广告：banner
+    1. 页面主体：main
+    1. 热点：hot
+    1. 新闻：news
+    1. 下载：download
+    1. 子导航：subnav
+    1. 菜单：menu
+    1. 子菜单：submenu
+    1. 搜索：search
+    1. 友情链接：friend link
+    1. 页脚：footer
+    1. 版权：copyright
+    1. 滚动：scroll
+    1. 内容：content
+    1. 标签：tags
+    1. 文章列表：list
+    1. 提示信息：msg
+    1. 小技巧：tips
+    1. 栏目标题：title
+    1. 加入：joins
+    1. 指南：guide
+    1. 服务：service
+   1. 注册：register
+   1. 状态：status
+   1. 投票：vote
+   1. 合作伙伴：partner
+ 
+### id的命名:
+
+* id采用驼峰式命名 
+*  页面结构
+    1. 容器: container
+    1. 页头：header
+    1. 内容：content/container
+    1. 页面主体：main
+    1. 页尾：footer
+    1. 导航：nav
+    1. 侧栏：sidebar
+    1. 栏目：column
+    1. 页面外围控制整体佈局宽度：wrapper
+    1. 左右中：left right center
+
+*  导航
+    1. 导航：nav
+    1. 主导航：mainnav
+    1. 子导航：subnav
+    1. 顶导航：topnav
+    1. 边导航：sidebar
+    1. 左导航：left sidebar
+    1. 右导航：right sidebar
+    1. 菜单：menu
+    1. 子菜单：submenu
+    1. 标题: title
+    1. 摘要: summary
+
+
+*  功能
+    1. 标志：logo
+    1. 广告：banner
+    1. 登陆：login
+    1. 登录条：loginbar
+    1. 注册：register
+    1. 搜索：search
+    1. 功能区：shop
+    1. 标题：title
+    1. 加入：joins
+    1. 状态：status
+    1. 按钮：bin
+    1. 滚动：scroll
+    1. 标籤页：tab
+    1. 文章列表：list
+    1. 提示信息：msg
+    1. 当前的: current
+    1. 小技巧：tips
+    1. 图标: icon
+    1. 注释：note
+    1. 指南：guild
+    1. 服务：service
+    1. 热点：hot
+    1. 新闻：news
+    1. 下载：download
+    1. 投票：vote
+    1. 合作伙伴：partner
+    1. 友情链接：link
+    1. 版权：copyright
+
+### 注意事项:
+*  一律小写;
+*  尽量用英文;
+* 不加中槓和下划线;
+*  尽量不缩写，除非一看就明白的单词。

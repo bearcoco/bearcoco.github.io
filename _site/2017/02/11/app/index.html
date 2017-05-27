@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ZGX">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>eclipse+cordova搭建APP开发环境 - 张冠雄的博客 | ZGX Blog</title>
+
+    <link rel="canonical" href="http://localhost:4000/2017/02/11/app/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">ZGX Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-js-version.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/post-bg-js-version.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#前端开发" title="前端开发">前端开发</a>
+                        
+                        <a class="tag" href="/tags/#JavaScript" title="JavaScript">JavaScript</a>
+                        
+                        <a class="tag" href="/tags/#app" title="app">app</a>
+                        
+                        <a class="tag" href="/tags/#cordova" title="cordova">cordova</a>
+                        
+                    </div>
+                    <h1>eclipse+cordova搭建APP开发环境</h1>
+                    
+                    
+                    <h2 class="subheading">在windows上搭建eclipse+cordova的开发环境</h2>
+                    
+                    <span class="meta">Posted by zgx on February 11, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h4 id="section">一、工具</h4>
+<p>1、java sdk 1.6以上版本
+2、Android sdk、eclipse</p>
+
+<h4 id="section-1">二、环境配置</h4>
+<p>1、安装jdk。
+根据电脑系统安装对应的jdk版本，双击应用程序，直接下一步下一步直至安装完成。
+按<strong>window+r</strong>进入控制台，输入 java,如弹出以下内容则表示安装成功。
+<img src="http://function.bypanda.cn/blog/20170306/194336609.png?imageView2/1/w/560/h/336" alt="" />
+2、设置系统变量。
+1）进入电脑系统属性的环境变量。
+<img src="http://function.bypanda.cn/blog/20170306/201053262.png" alt="" />
+2）新建系统变量，变量名为JAVA_HOME，设置值为java  sdk的根目录(C:\Program Files\Java\jdk1.7.0_71)，找到c盘–&gt;Program Files–&gt;Java–&gt;jdk1.7.0_71.
+<img src="http://function.bypanda.cn/blog/20170306/201236305.png" alt="" />
+3）系统变量找到Path, 在Path环境变量里面增加;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin注意环境变量之间的;添加完之后点确定继续第四步；
+<img src="http://function.bypanda.cn/blog/20170306/201321609.png" alt="" />
+ 4）找到解压好的sdk/eclipse文件，找到sdk底下的tools和platform-tools文件夹，分别复制两个文件的地址D:\adt\sdk\tools和D:\adt\sdk\platform-tools到记事本；变量直接用;隔开，再找到eclipse -&gt; plugins -&gt; org.apache.ant_1.8.3.v201301120609 -&gt; 复制文件地址D:\adt\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\bin到记事本。（为了防止出错就直接先复制到记事本上）
+ <img src="http://function.bypanda.cn/blog/20170306/201811338.png" alt="" />
+ 将记事本的内容直接复制添加到Path环境变量后，点击确认。后面全部点击确定。
+ <img src="http://function.bypanda.cn/blog/20170306/201852307.png" alt="" />
+ 3、查看是否完成配置，先在控制台中输入 javac,如弹出以下内容则表示环境配置成功；
+ <img src="http://function.bypanda.cn/blog/20170306/202417687.png?imageView2/1/w/620/h/400" alt="" />
+ 再输入android；弹出Android SDK Manage的页面则表示sdk,android环境配置成功。关闭Android SDK Manage即可。
+ <img src="http://function.bypanda.cn/blog/20170306/202507362.png?imageView2/1/w/680/h/500" alt="" /></p>
+
+<h4 id="cordova">三、cordova下载和使用</h4>
+<ol>
+  <li>下载并安装NodeJS
+双击应用程序，直接下一步直至安装结束。</li>
+  <li>安装cordova
+地址：<a href="http://cordova.apache.org/docs/en/latest/guide/cli/index.html">http://cordova.apache.org/docs/en/latest/guide/cli/index.html</a>
+1）按<strong>window+r</strong>进入控制台，输入npm install -g cordova  然后等待cordova  安装结束，出现下图表示安装成功。
+<img src="http://function.bypanda.cn/blog/20170307/002800965.png" alt="" />
+2）创建项目
+将项目创建在C盘，先在控制台中（cd ../）返回到C盘，然后输入cordova create hello com.qianfeng.hello HelloWorld
+    <ul>
+      <li>hello：文件名称</li>
+      <li>com.qianfeng.hello：包名称</li>
+      <li>HelloWorld：项目名称
+<img src="http://function.bypanda.cn/blog/20170307/003000233.png" alt="" />
+3）添加平台
+a. 在控制台中继续输入cd  hello
+b. 最后输入cordova platform add android #添加 Android 平台
+<img src="http://function.bypanda.cn/blog/20170307/003105968.png" alt="" />
+3、导入android项目
+1）打开eclipse，File-&gt;import-&gt;选择生成的android项目
+<img src="http://function.bypanda.cn/blog/20170307/003302260.png" alt="" />
+<img src="http://function.bypanda.cn/blog/20170307/003324134.png" alt="" />
+2）将项目的所有代码复制到hello项目的www中，将里面的文件替换。
+3）文件替换后，进入控制台在hello目录下输入cordova prepare;如下图：
+<img src="http://function.bypanda.cn/blog/20170307/003503006.png" alt="" /></li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="apk">四、运行项目，生成APK</h4>
+<p>回到eclipse中运行项目，可以连接手机查看，可以在模拟器中查看。
+<img src="http://function.bypanda.cn/blog/20170307/003550831.png" alt="" /></p>
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/01/09/imgBox/" data-toggle="tooltip" data-placement="top" title="jQuery实现图片居中裁剪效果">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2017/03/06/jiami/" data-toggle="tooltip" data-placement="top" title="文章简单加密访问">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+                <!-- 多说评论框 start -->
+                <div class="comment">
+                    <div class="ds-thread"
+                        data-thread-key="/2017/02/11/app"
+                        data-title="eclipse+cordova搭建APP开发环境"
+                        data-url="http://localhost:4000/2017/02/11/app/" >
+                    </div>
+                </div>
+                <!-- 多说评论框 end -->
+                
+
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#前端开发" title="前端开发" rel="9">
+                                    前端开发
+                                </a>
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#JavaScript" title="JavaScript" rel="4">
+                                    JavaScript
+                                </a>
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#生活" title="生活" rel="3">
+                                    生活
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="/tags/#博客" title="博客" rel="2">
+                                    博客
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#jekyll" title="jekyll" rel="2">
+                                    jekyll
+                                </a>
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://zgx.ac.cn">ZGX Blog</a></li>
+                    
+                        <li><a href="#">Foo</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                        <li><a href="#">Example Friends</a></li>
+                    
+                        <li><a href="#">It helps SEO</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User by Hux
+    var _user = 'huxblog';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/bypanda">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; ZGX Blog 2017
+                    <br>
+                    Theme by <a href="http://huangxuan.me">Hux</a> 
+                    <!-- <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-49627206-1';
+    var _gaDomain = 'zgx.ac.cn';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '4cc1f2d8f3067386cc5cdb626a202900';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
