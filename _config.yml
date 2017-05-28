@@ -7,7 +7,7 @@ description: "刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。
 keyword: "张冠雄, ZGX, 张冠雄的博客, 个人博客, 互联网, 前端, 旅游"
 url: "http://www.zgx.ac.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
+cloud_tie_public_key: "\"836b7ac87ba74c0b8e742592d15cb0bb\""
 
 
 # add sreach
@@ -56,10 +56,7 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-duoshuo_username: bypanda
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
 
 
 

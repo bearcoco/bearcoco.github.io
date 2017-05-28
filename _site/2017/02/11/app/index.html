@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://www.zgx.ac.cn/2017/02/11/app/">
+    <link rel="canonical" href="http://localhost:4000/2017/02/11/app/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -274,7 +274,7 @@ b. 最后输入cordova platform add android #添加 Android 平台
         <div>
      
 	  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-	    <div>评论已关，用$_$说话</div>
+	    <div>喝杯咖啡</div>
 	    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById(&#39;QR&#39;); if (qr.style.display === &#39;none&#39;) {qr.style.display=&#39;block&#39;;} else {qr.style.display=&#39;none&#39;}">
 	      <span>赞</span>
 	    </button>
@@ -293,37 +293,21 @@ b. 最后输入cordova platform add android #添加 Android 平台
 
       
     </div>
+    <hr>
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<script>
+var cloudTieConfig = {
+  url: document.location.href, 
+  sourceId: "",
+  productKey: "836b7ac87ba74c0b8e742592d15cb0bb",
+  target: "cloud-tie-wrapper"
+};
+var yunManualLoad = true;
+Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+</script>
                 <hr>
 
-                
-                <!-- 多说 Share start -->
-                </style>
-                <div class="ds-share"
-                    style="text-align: right"
-                    data-thread-key="/2017/02/11/app"
-                    data-title="eclipse+cordova搭建APP开发环境"
-                    data-url="http://www.zgx.ac.cn/2017/02/11/app/"
-                    data-images="http://www.zgx.ac.cn/img/post-bg-js-version.jpg"
-                    data-content="一、工具
-1、java sdk 1.6以上版本
-2、Android sdk、eclipse
-
-二、环境配置
-1、安装jdk。
-根据电脑系统安装对应的jdk... | 张冠雄的博客 | ZGX Blog " >
-                    <div class="ds-share-inline">
-                      <ul  class="ds-share-icons-16">
-                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
-                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
-                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
-                      </ul>
-                      <div class="ds-share-icons-more">
-                      </div>
-                    </div>
-                <hr>
-                </div>
-                <!-- 多说 Share end-->
                 
 
 
@@ -347,16 +331,6 @@ b. 最后输入cordova platform add android #添加 Android 平台
                 </ul>
 
 
-                
-                <!-- 多说评论框 start -->
-                <div class="comment">
-                    <div class="ds-thread"
-                        data-thread-key="/2017/02/11/app"
-                        data-title="eclipse+cordova搭建APP开发环境"
-                        data-url="http://www.zgx.ac.cn/2017/02/11/app/" >
-                    </div>
-                </div>
-                <!-- 多说评论框 end -->
                 
 
                 
@@ -465,24 +439,6 @@ b. 最后输入cordova platform add android #添加 Android 平台
 </article>
 
 
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User by Hux
-    var _user = 'bypanda';
-
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
 
 
 
