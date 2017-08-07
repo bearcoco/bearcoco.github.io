@@ -10,7 +10,7 @@
     <meta name="keywords"  content="张冠雄, ZGX, 张冠雄的博客, 个人博客, 互联网, 前端, 旅游">
     <meta name="theme-color" content="#000000">
     
-    <title>张冠雄的博客 | ZGX Blog</title>
+    <title>Vue与Angular的撕逼 - 张冠雄的博客 | ZGX Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/page2/">
+    <link rel="canonical" href="http://localhost:4000/2017/08/07/talk-vue-angular/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -153,287 +153,262 @@
 </script>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/va.png" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/va.png')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>ZGX Blog</h1>
-                    <!--<hr class="small">-->
-                    <span class="subheading">Welcome to my Blog</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#vue.js" title="vue.js">vue.js</a>
+                        
+                        <a class="tag" href="/tags/#Angular.js" title="Angular.js">Angular.js</a>
+                        
+                    </div>
+                    <h1>Vue与Angular的撕逼</h1>
+                    
+                    
+                    <h2 class="subheading">天气有点热，前端圈火有点大~</h2>
+                    
+                    <span class="meta">Posted by zgx on August 7, 2017</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-        
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
 
-<!-- USE SIDEBAR -->
-    <!-- PostList Container -->
-    		<div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                postlist-container
-            ">
-    			
-<div class="post-preview">
-    <a href="/2016/12/25/youName/">
-        <h2 class="post-title">
-            「你的名字。」
-        </h2>
-        
-        <h3 class="post-subtitle">
-            聊聊新海诚电影「你的名字。」
-        </h3>
-        
-        <div class="post-content-preview">
-            前言
-讲真，20几年来，我就很少看动漫！从小时候就很不喜欢，我也不知道为什么。这个时候可能喜欢动漫的人会说：你这20几年白过了~ 
-半个月多前「你的名字。」在中国大陆上映时，就有朋友约我说去看这部电影，被我无情的给拒绝了，然后只记得那天晚上朋友圈被「你的名字。」给刷爆了，那时就一个想法：真的有那么好看么？还是大家都跟潮流啊。于是自己去豆瓣上看了评分：
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-当时放映那天的豆瓣评分是高达9.3，上...
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by zgx on December 25, 2016
-    </p>
+				<p>围观了这几天尤雨溪和大漠穷秋的论战，讲真，我瓜子都不够吃了。</p>
+
+<p>上周三午休起来刷了下知乎，无意中看到大漠穷秋的文章<strong>《Angular有哪些地方比Vue更优秀？》</strong> ，看了这篇言语偏激的框架之争和底下互相撕逼的评论，真心觉得前端圈真特么的太像娱乐圈了。心想，以尤雨溪的性格，不出一天，肯定会对这篇文章进行回应。当然，在知乎这样的平台，在当事人还没出来之前，立马就出现高活跃、高质量的问答，里边的回答和评价，非常精彩，当然你得忽略掉一些不和谐的“人生攻击”，还是能看到很多有营养，有价值的东西的。</p>
+
+<p><a href="https://www.zhihu.com/question/63301747">如何评价大漠穷秋的文章《Angular有哪些地方比Vue更优秀？》?</a>
+<img src="http://function.bypanda.cn/blog/20170807/213930926.png" alt="问题" /></p>
+
+<p>当天晚上尤雨溪也在微博上表示第二天会对该文章进行回应。</p>
+
+<p><a href="https://zhuanlan.zhihu.com/p/28284087">回应『Angular有哪些地方比Vue更优秀？』</a>
+<img src="http://function.bypanda.cn/blog/20170807/215248618.png" alt="mark" /></p>
+
+<p>为了避免站队撕逼，尤雨溪将评论设置为只有他关注的人可以评论了。不然我想底下评论又是一场腥风血雨。仔细的看了这篇文章，发现自己对于vue还有很多地方要学习的。</p>
+
+<p>本想事态应该差不多要结束了，没想到的是大漠穷秋发疯似的发了一篇又双叒一篇的文章《为什么只会Vue的都是前端小白？》、《Vue从Angular里面抄了哪些东西？》、《新版本的Angular里面还有哪些核心特性目前还没有被Vue抄袭？》</p>
+
+<p>几篇文章下来瞬间在知乎上炸开了。各种问答立马接上，给上链接，配以截图，自行观赏。</p>
+
+<p><a href="https://www.zhihu.com/question/63345185/answer/208087548">如何评价大漠穷秋的文章《为什么只会Vue的都是前端小白？》？</a>
+<img src="http://function.bypanda.cn/blog/20170807/232236425.png" alt="mark" /></p>
+
+<p><a href="https://www.zhihu.com/question/63390665">如何评价大漠穷秋的文章《Vue从Angular里面抄了哪些东西？》？</a>
+<img src="http://function.bypanda.cn/blog/20170807/232707672.png" alt="mark" /></p>
+
+<p>面对着几篇文章，尤雨溪直接在微博上贴出了一张聊天的记录。
+<img src="http://function.bypanda.cn/blog/20170807/233257697.png" alt="mark" /></p>
+
+<p>知乎立马同步出现问答。
+<a href="https://www.zhihu.com/question/63402685">如何评价尤雨溪向大漠穷秋的领导就Vue与Angular”争论”的举报？</a>
+<img src="http://function.bypanda.cn/blog/20170807/233346430.png" alt="mark" /></p>
+
+<p><a href="https://www.zhihu.com/question/63445634/answer/209410968">技术圈争论跑去告老板会让人不齿吗？</a>
+<img src="http://function.bypanda.cn/blog/20170807/234040374.png" alt="mark" /></p>
+
+<p>从讨论技术问题变成了圈子间的站队，再到攻击别人，这次Vue与Angular的撕逼欲演欲大。而最终在大漠穷秋的最后一篇文章出来之后开始收尾。不过基于他们的讨论还有很多很多，毕竟看热闹的不嫌事儿大。</p>
+
+<p><a href="https://zhuanlan.zhihu.com/p/28343146">致歉信</a>
+<img src="http://function.bypanda.cn/blog/20170807/234547256.png" alt="mark" /></p>
+
+<p><a href="https://zhuanlan.zhihu.com/p/28333484">最后一次回应大漠穷秋</a>
+<img src="http://function.bypanda.cn/blog/20170807/234710341.png" alt="mark" /></p>
+
+<p><a href="https://www.zhihu.com/question/63482139">如何看待大漠穷秋离职并且删完专栏中所有文章？</a>
+<img src="http://function.bypanda.cn/blog/20170807/234924893.png" alt="mark" /></p>
+
+<p>这次尤雨溪和大漠穷秋的论战，涌现出了前端圈的超多大牛在知乎，微博进行问答、点赞互评、互怼。</p>
+
+<p><img src="http://function.bypanda.cn/blog/20170807/235124825.png" alt="mark" /></p>
+
+<p>当然最终大漠穷秋已经删除所有文章并且离职，没办法，自己说过的话总得负责。就如贺老所说：挑错对手了啊。</p>
+
+<p>围观了这几天的观战，当然是选择vue了，对事不对人。大牛的世界咱不懂啊，少说话，多做事吧，最后贴上这个回答。
+<img src="http://function.bypanda.cn/blog/20170808/000626809.png" alt="mark" /></p>
+
+<p>学过也用过Vue与Angular这两个框架，非常感谢他们的作者，至少让我有口饭吃。对于英语不好的我，更加感谢Vue，良心的中文官网和社区短时间内上手了Vue，和同事一起写的第一个Vue项目也即将上线。对于框架，只能说，适合的就好了，重要的还是js！</p>
+
+
+<!-- zanshang -->
+<div>
+
+      
 </div>
-<hr>
 
-<div class="post-preview">
-    <a href="/2016/12/16/webapp/">
-        <h2 class="post-title">
-            移动端自适应
-        </h2>
+        <div>
+     
+	  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+	    <div>喝杯咖啡</div>
+	    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById(&#39;QR&#39;); if (qr.style.display === &#39;none&#39;) {qr.style.display=&#39;block&#39;;} else {qr.style.display=&#39;none&#39;}">
+	      <span>赞</span>
+	    </button>
+	    <div id="QR" style="display: none;">
+	      
+	        <div id="wechat" style="display: inline-block">
+	          <a href="/img/wechat.jpg" class="fancybox" rel="group"><img id="wechat_qr" src="/img/wechat.jpg" alt="WeChat Pay"></a>
+	          <p>微信打赏</p>
+	        </div>
+	      
+	      
+          </div>
+  </div>
+  
+
+
+      
+    </div>
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<script>
+var cloudTieConfig = {
+  url: document.location.href, 
+  sourceId: "",
+  productKey: "836b7ac87ba74c0b8e742592d15cb0bb",
+  target: "cloud-tie-wrapper"
+};
+var yunManualLoad = true;
+Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+</script>
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/05/21/hongkong/" data-toggle="tooltip" data-placement="top" title="香港一日游">
+                        Previous<br>
+                        <span>香港一日游</span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+
+
+                
+
+                
+
+            </div>  
+
+    <!-- Side Catalog Container -->
         
-        <h3 class="post-subtitle">
-            采用流布局加rem的方式实现自适应
-        </h3>
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
         
-        <div class="post-content-preview">
-            前言
-随着移动端用户的增加，使用手机进行浏览网页已经成为主流，对于前端来说，写好网页的自适应非常重要，现在在公司也的一些网页专题都是要求手机端自适应，这点无形之中就加了很多的工作量了，不过了解自适应的原理，知道怎么用代码控制他后，也就简单了。当然这从中就要用到这样一个非常重要的单位–rem。
 
-什么是rem
-
-rem（font size of the root element）是指相对于根元...
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by zgx on December 16, 2016
-    </p>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="/2016/11/27/standard/">
-        <h2 class="post-title">
-            代码规范
-        </h2>
-        
-        <h3 class="post-subtitle">
-            借鉴别人和自己的工作经验总结的一些前端代码规范
-        </h3>
-        
-        <div class="post-content-preview">
-            命名规则
-项目命名
-
-  
-    项目名全部采用小写方式，以下划线分隔。
-
-    例如：my_project_name
-  
-
-
-目录命名
-
-
-  目录名参照上一条规则；
-  
-    有复数结构时，要采用复数命名法。
-
-    例如： scripts, styles, images, data_models
-  
-
-
-JavaScript文件命名
-
-
-  
-    所有js文件名，多个...
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by zgx on November 27, 2016
-    </p>
-</div>
-<hr>
-
-
-<!-- Pager -->
-
-<ul class="pager">
-    
-    <li class="previous">
-        <a href="/">&larr; Newer Posts</a>
-    </li>
-    
-    
-</ul>
-
-
-
-
-    		</div>
     <!-- Sidebar Container -->
             <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
                 <!-- Featured Tags -->
                 
                 <section>
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
-                        
+        				
                             
-                                <a href="/tags/#前端开发" title="前端开发" rel="9">
+                				<a href="/tags/#前端开发" title="前端开发" rel="9">
                                     前端开发
                                 </a>
                             
-                        
+        				
                             
-                        
+        				
                             
-                                <a href="/tags/#JavaScript" title="JavaScript" rel="4">
+                				<a href="/tags/#JavaScript" title="JavaScript" rel="4">
                                     JavaScript
                                 </a>
                             
-                        
+        				
                             
-                        
+        				
                             
-                                <a href="/tags/#生活" title="生活" rel="3">
+                				<a href="/tags/#生活" title="生活" rel="3">
                                     生活
                                 </a>
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                                <a href="/tags/#博客" title="博客" rel="2">
+                				<a href="/tags/#博客" title="博客" rel="2">
                                     博客
                                 </a>
                             
-                        
+        				
                             
-                                <a href="/tags/#jekyll" title="jekyll" rel="2">
+                				<a href="/tags/#jekyll" title="jekyll" rel="2">
                                     jekyll
                                 </a>
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
+        				
                             
-                        
-                    </div>
+        				
+        			</div>
                 </section>
                 
 
-                <!-- Short About -->
-                <section class="visible-md visible-lg">
-                    <hr><h5><a href="/about/">ABOUT ME</a></h5>
-                    <div class="short-about">
-                        
-                            <img src="/img/zgx.jpg" />
-                        
-                        
-                            <p>既然开始了，那就做最好的。</p>
-                        
-
-
-
-                        <!-- SNS Link -->
-                        <ul class="list-inline">
-                            
-
-
-
-                             <!-- add lofter,ins by teng, add target = "_blank" to <a> by Hux -->
-                    
-
-                        
-
-                            
-                            <li>
-                                <a href="https://twitter.com/bypanda">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                            
-                            
-                            
-                            <li>
-                                <a target="_blank" href="http://weibo.com/bypanda">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                            
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/bypanda">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                            
-                            <li>
-                                <a target="_blank" href="https://github.com/zgxaccn">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            
-                            
-                        </ul>
-                    </div>
-                </section>
                 <!-- Friends Blog -->
                 
                 <hr>
@@ -448,10 +423,53 @@ JavaScript文件命名
                     
                 </ul>
                 
-    		</div>
-        
-	</div>
-</div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->
@@ -651,6 +669,47 @@ JavaScript文件命名
 
 
   <!-- Side Catalog -->
+  
+  <script type="text/javascript">
+      function generateCatalog (selector) {
+          var P = $('div.post-container'),a,n,t,l,i,c;
+          a = P.find('h1,h2,h3,h4,h5,h6');
+          a.each(function () {
+              n = $(this).prop('tagName').toLowerCase();
+              i = "#"+$(this).prop('id');
+              t = $(this).text();
+              c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+              l = $('<li class="'+n+'_nav"></li>').append(c);
+              $(selector).append(l);
+          });
+          return true;
+      }
+      generateCatalog(".catalog-body");
+      // toggle side catalog
+      $(".catalog-toggle").click((function(e){
+          e.preventDefault();
+          $('.side-catalog').toggleClass("fold")
+      }))
+      /*
+       * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+       * Fork by Hux to support padding
+       */
+      async("/js/jquery.nav.js", function () {
+          $('.catalog-body').onePageNav({
+              currentClass: "active",
+              changeHash: !1,
+              easing: "swing",
+              filter: "",
+              scrollSpeed: 700,
+              scrollOffset: 0,
+              scrollThreshold: .2,
+              begin: null,
+              end: null,
+              scrollChange: null,
+              padding: 80
+          });
+      });
+  </script>
   
 
   <!-- Highlight.js -->

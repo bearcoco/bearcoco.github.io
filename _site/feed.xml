@@ -5,9 +5,79 @@
     <description>刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 May 2017 01:23:13 +0800</pubDate>
-    <lastBuildDate>Mon, 29 May 2017 01:23:13 +0800</lastBuildDate>
+    <pubDate>Tue, 08 Aug 2017 00:41:05 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Aug 2017 00:41:05 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Vue与Angular的撕逼</title>
+        <description>&lt;p&gt;围观了这几天尤雨溪和大漠穷秋的论战，讲真，我瓜子都不够吃了。&lt;/p&gt;
+
+&lt;p&gt;上周三午休起来刷了下知乎，无意中看到大漠穷秋的文章&lt;strong&gt;《Angular有哪些地方比Vue更优秀？》&lt;/strong&gt; ，看了这篇言语偏激的框架之争和底下互相撕逼的评论，真心觉得前端圈真特么的太像娱乐圈了。心想，以尤雨溪的性格，不出一天，肯定会对这篇文章进行回应。当然，在知乎这样的平台，在当事人还没出来之前，立马就出现高活跃、高质量的问答，里边的回答和评价，非常精彩，当然你得忽略掉一些不和谐的“人生攻击”，还是能看到很多有营养，有价值的东西的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/63301747&quot;&gt;如何评价大漠穷秋的文章《Angular有哪些地方比Vue更优秀？》?&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/213930926.png&quot; alt=&quot;问题&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当天晚上尤雨溪也在微博上表示第二天会对该文章进行回应。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/28284087&quot;&gt;回应『Angular有哪些地方比Vue更优秀？』&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/215248618.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;为了避免站队撕逼，尤雨溪将评论设置为只有他关注的人可以评论了。不然我想底下评论又是一场腥风血雨。仔细的看了这篇文章，发现自己对于vue还有很多地方要学习的。&lt;/p&gt;
+
+&lt;p&gt;本想事态应该差不多要结束了，没想到的是大漠穷秋发疯似的发了一篇又双叒一篇的文章《为什么只会Vue的都是前端小白？》、《Vue从Angular里面抄了哪些东西？》、《新版本的Angular里面还有哪些核心特性目前还没有被Vue抄袭？》&lt;/p&gt;
+
+&lt;p&gt;几篇文章下来瞬间在知乎上炸开了。各种问答立马接上，给上链接，配以截图，自行观赏。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/63345185/answer/208087548&quot;&gt;如何评价大漠穷秋的文章《为什么只会Vue的都是前端小白？》？&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/232236425.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/63390665&quot;&gt;如何评价大漠穷秋的文章《Vue从Angular里面抄了哪些东西？》？&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/232707672.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;面对着几篇文章，尤雨溪直接在微博上贴出了一张聊天的记录。
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/233257697.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;知乎立马同步出现问答。
+&lt;a href=&quot;https://www.zhihu.com/question/63402685&quot;&gt;如何评价尤雨溪向大漠穷秋的领导就Vue与Angular”争论”的举报？&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/233346430.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/63445634/answer/209410968&quot;&gt;技术圈争论跑去告老板会让人不齿吗？&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/234040374.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;从讨论技术问题变成了圈子间的站队，再到攻击别人，这次Vue与Angular的撕逼欲演欲大。而最终在大漠穷秋的最后一篇文章出来之后开始收尾。不过基于他们的讨论还有很多很多，毕竟看热闹的不嫌事儿大。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/28343146&quot;&gt;致歉信&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/234547256.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/28333484&quot;&gt;最后一次回应大漠穷秋&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/234710341.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/63482139&quot;&gt;如何看待大漠穷秋离职并且删完专栏中所有文章？&lt;/a&gt;
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/234924893.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这次尤雨溪和大漠穷秋的论战，涌现出了前端圈的超多大牛在知乎，微博进行问答、点赞互评、互怼。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://function.bypanda.cn/blog/20170807/235124825.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然最终大漠穷秋已经删除所有文章并且离职，没办法，自己说过的话总得负责。就如贺老所说：挑错对手了啊。&lt;/p&gt;
+
+&lt;p&gt;围观了这几天的观战，当然是选择vue了，对事不对人。大牛的世界咱不懂啊，少说话，多做事吧，最后贴上这个回答。
+&lt;img src=&quot;http://function.bypanda.cn/blog/20170808/000626809.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;学过也用过Vue与Angular这两个框架，非常感谢他们的作者，至少让我有口饭吃。对于英语不好的我，更加感谢Vue，良心的中文官网和社区短时间内上手了Vue，和同事一起写的第一个Vue项目也即将上线。对于框架，只能说，适合的就好了，重要的还是js！&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 07 Aug 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/08/07/talk-vue-angular/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/07/talk-vue-angular/</guid>
+        
+        <category>vue.js</category>
+        
+        <category>Angular.js</category>
+        
+        
+      </item>
     
       <item>
         <title>香港一日游</title>
@@ -813,77 +883,6 @@ OK，现在只差最后一步了，我们已经将图片居中裁剪的封装成
         <category>生活</category>
         
         <category>个人总结</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>「你的名字。」</title>
-        <description>&lt;h4 id=&quot;section&quot;&gt;前言&lt;/h4&gt;
-&lt;p&gt;讲真，20几年来，我就很少看动漫！从小时候就很不喜欢，我也不知道为什么。这个时候可能喜欢动漫的人会说：你这20几年白过了~ 
-半个月多前「你的名字。」在中国大陆上映时，就有朋友约我说去看这部电影，被我无情的给拒绝了，然后只记得那天晚上朋友圈被「你的名字。」给刷爆了，那时就一个想法：真的有那么好看么？还是大家都跟潮流啊。于是自己去豆瓣上看了评分：
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/172025501.png&quot; alt=&quot;君の名は。豆瓣评分&quot; /&gt;
-当时放映那天的豆瓣评分是高达9.3，上图是目前的评分。也是非常高的，当时因为没有看过这部电影也不好评价什么的，反正看了评分和评论就觉得很腻害的样子。不过也就那样，然后我就忘了，也没再去关注它。直到今天，有个朋友生日，还特意找了家有放映这部电影的电影院，提前买好了票，所以晚上聚餐结束就看了。票都已经买了，拒绝的机会都没有了。让我的朋友话说是：这部电影你是跑不掉了。&lt;/p&gt;
-&lt;h4 id=&quot;section-1&quot;&gt;情节简介&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;﻿重要的人，不能忘记的人，不想忘记的人。 ﻿﻿
-你，是谁？﻿﻿
-﻿——新海诚《你的名字。》&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/174433215.png?imageView2/1/w/600/h/320&quot; alt=&quot;图片来自网络&quot; /&gt;
-在电影开始放的十几分钟里，我是属于蒙蔽状态（灵魂出窍）的，不过随着电影情节的一步步深入，灵魂也回归，开始跟着电影的脚步走，还好是在电影院，要是说我自己一个人在电脑上看我可能前面就没看下去了。
-OK，故事开始了，男一号叫泷，女一号叫三叶。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/192214910.png?imageView2/1/w/600/h/310&quot; alt=&quot;&quot; /&gt;
-三叶生活在偏远小镇，世代守护着神社，并且有着神秘而古老的神社文化。三叶的父亲是镇长，每天政务缠身，而她的母亲早已逝去，她和外婆妹妹共同生活，她的外婆呢，是守护神庙的祭神，最喜欢讲的就是产灵了。而对于处在青春期的她，对这些并没有很大的兴趣，她盼望的是去东京生活，变成东京的男孩。而日子的乏味，使得她开始对于大都市的向往愈加强烈。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/192546689.png?imageView2/1/w/600/h/310&quot; alt=&quot;&quot; /&gt;
-泷是一个生活在繁华城市的高中生，俩人按道理来讲八竿子打不着。但在有一天三叶突然做了一个梦，梦中的自己变成了东京男孩泷，从此只要于半醒或者睡眠状态的时候便会与泷互换，而东京男孩泷也像三叶那样，于睡梦中互换变成了现实中的三叶，泷与三叶各自体会着对方于自己所处之地截然不同的生活。用手机与彼此留言，定制规定，当然规定也是很有意思：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;不可以洗澡
-不可以摸互相的身体
-不可以把脚叉开
-不可以碰其他的男女生&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;哈哈，淡淡的青春，纯纯的爱，很美好！
-两个人就这样从陌生人互换身体开始的莫名其妙，甚至有些生气，到后来情感慢慢发生变化，慢慢融进彼此的生活，似乎已经习惯了彼此的存在，知道了对方的习惯，认识了你认识的人，生活了你的生活，两个人开始对彼此都产生了别样的情愫。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/200400890.png&quot; alt=&quot;&quot; /&gt;
-剧情肯定不会是这么美好的走下去，故事的高潮也即将来了。他们两个人的梦还是醒了，彼此没再交换身体，于是泷开始寻找（其实三年前三叶也已经出发到东京找过他了，不过那时候他还不认识），泷经过多方打听，知道了三年前，由于那次彗星接近地球，发生陨石坠落，毁灭了三叶和她所在小镇。他还查找了死亡册里写着宫水三叶名字时，满脸的惊诧，嗯，还有心痛，反正当时的整个心思就是关于三叶，关于那个小镇。他要继续寻找，寻找那个天坑。
-当泷找到那个时空的入口，再次回到三年前的三叶身体里时，他决定要拯救这个小镇。﻿﻿﻿﻿她叫上好友敕使和早耶香，商讨避难方法。一切准备就绪，随着时间的推移，彗星降落的临界点越来越近。﻿可是他说服不了三叶的父亲。他想到只有真正的三叶才能说服父亲。
- &lt;img src=&quot;http://function.bypanda.cn/blog/20170102/202443996.png&quot; alt=&quot;&quot; /&gt;
-于是，他奋力奔跑，在那个夕阳下的黄昏，来到了天坑，见到了三叶，﻿他们两个彼此对望，都哭了出来。他对她说，为了避免醒来后忘记对方的名字，在对方手心写上。泷认真在她手心写了字，等到三叶写时，黄昏之时消失，三叶也消失不见。﻿﻿﻿
-当然了，最后三叶在最后关头说服了爸爸，系守镇所有人逃过了这次的灾难，他们没有消失，而泷也彻底忘记了三叶的名字，只是心里要记住一个名字，他开始了按部就班的生活了，似乎都忘记了彼此的事，5年后毕业到处寻找工作时，他心里一直放不下的牵挂惦记，设计出来的东西也不被认可，工作一直碰壁。终于剧情还是让两个人相遇，第一次是在电车之间看到了彼此，这次的相遇，他们真的一眼就认出了彼此。心里的声音同时响起：我一直在寻找某个人——是你。﻿而最为感人的相遇是在桥上找到彼此，擦肩而过的刹那，电光火石，仿佛时间静止。﻿泷带着疑惑认真的问道：“请问，我好像在哪里见过你。”三叶回头泪流满面幸福的点点头：我也一样。
--END-，最后这句对白可能是整部电影中最感人的地方了。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/193450558.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;section-2&quot;&gt;个人反思&lt;/h4&gt;
-
-&lt;p&gt;看完「你的名字。」后很想打个电话给那个你，不过想想还是算了。早点回来写写影评，不过还是网上看了很多别人的影评还有结合自己的一些算是观后感吧，才写出来的。看完其实最想讲的就是爱情，单身很久了，对于爱情，肯定是没有「你的名字。」中这样轰轰烈烈的经历啊。我相信看了这部电影有一些感慨的人都是相信日久生情的，泷和三叶在各自的生命中走过，慢慢地，他们已经习惯彼此的存在。然后才开始对彼此都产生了别样的情愫。因为爱，他们超越时间，超越地点，然后和彼此相遇。我想如果未来能与爱的人一起为将来的生活努力，一起创造经营生活的点滴，那就够了。当然﻿，如果不爱，两个人尽可以在彼此的生命里消失不见，然后各过各的生活。泷依然是东京帅气的少年，而三叶依然是乡下内向的女巫。
-最后呢，引用别人的影评：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;珍惜身边你所想珍惜的人，珍惜在你脑海中占有地位的人，珍惜陪伴，珍惜与珍惜之人相伴的每一天。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;section-3&quot;&gt;为啥好作品都在国外&lt;/h4&gt;
-
-&lt;p&gt;非常的佩服新海诚，「你的名字。」整部电影的立意以及创意，在国内的影视作品中确实很难看到这样类型的电影。新海诚在在作品中，尽管故事发生在现代，但是內核却蕴含着很大和的民族传统。电影中就有很多对传统的回归，比如：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;三叶作为巫女，用自己咀嚼的米饭吐出来，利用唾液发酵来酿酒，而事实上日本传统的酿酒方式中真就有这种方法：让处女咀嚼米饭将处女的唾液和米饭充分混合，之后吐出来进行发酵最后酿造的酒就叫“口噛み酒”。–来自网络。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他对日本的文化描述，虽然不是像美国电影描述高科技的发展，但却是能够联系人心的内在力量，给人一种很大的共鸣。而为什么中国很难出好的影视作品，或许是因为导演本身对我们自己国家的文化还不够了解，没法表达出内涵，表现出来的也就知道外在，而且最厉害是在于翻拍，却越拍越烂；亦或者是只顾眼前利益，毕竟赶快赚钱是王道，而不去发掘艺术内涵，用心孕育一部完美的作品。好吧，这些当然只是我个人的一些观点。当然了，作为吃瓜观众，经常诟病国内影视剧的同时也应该自我反思一下：如何在对国剧提高要求的同时提高自身的鉴赏能力和文化水平。反正我是觉得呢，人丑就应该多读书！嗯，作为男的，人矮也是！
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/203037774.png&quot; alt=&quot;洗洗睡吧&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;-END-&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Dec 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2016/12/25/youName/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/25/youName/</guid>
-        
-        <category>生活</category>
-        
-        <category>电影</category>
         
         
       </item>
