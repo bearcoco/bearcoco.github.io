@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2016/12/16/webapp/">
+    <link rel="canonical" href="http://www.zgx.ac.cn/2016/12/16/webapp/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -204,15 +204,15 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<h4 id="section">前言</h4>
+				<h4 id="前言">前言</h4>
 <p>随着移动端用户的增加，使用手机进行浏览网页已经成为主流，对于前端来说，写好网页的自适应非常重要，现在在公司也的一些网页专题都是要求手机端自适应，这点无形之中就加了很多的工作量了，不过了解自适应的原理，知道怎么用代码控制他后，也就简单了。当然这从中就要用到这样一个非常重要的单位–rem。</p>
 
-<h4 id="rem">什么是rem</h4>
+<h4 id="什么是rem">什么是rem</h4>
 
 <p>rem（font size of the root element）是指相对于根元素的字体大小的单位。
 简单的说它就是一个相对单位。看到rem大家一定会想起em单位，em（font size of the element）是指相对于父元素的字体大小的单位。
 区别：它们之间其实很相似，只不过一个计算的规则是依赖根元素一个是依赖父元素计算。</p>
-<h4 id="section-1">怎么解决自适应</h4>
+<h4 id="怎么解决自适应">怎么解决自适应</h4>
 
 <p>页面布局：采用流布局加rem，具体的做法是我参考了流云诸葛的文章（底下参考的第一篇文章），我是采用了网易的做法。先来看看网易在不同分辨率呈现的效果：
 <img src="http://function.bypanda.cn/blog/20170102/210329811.png" alt="" />
@@ -223,20 +223,18 @@
 使用rem布局结合在html上根据不同分辨率设置不同font-size有很多不好解决的麻烦，网易是如何解决的呢？最根本的原因在于，网易页面上html的font-size不是预先通过媒介查询在css里定义好的，而是通过JS计算出来的，不过这得在你调整分辨率后，刷新页面才能看得到效果。
 它是根据什么计算的，这就跟设计稿有关了，那我自己来讲吧，我们UI给我的设计稿的横向分辨率为320px，为了计算方便，我取一个100px的font-size为参照，那么body元素的宽度就可以设置为width: 3.2rem，于是html的font-size=deviceWidth / 3.2。以下便是我的计算的代码：</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">deviceWidth</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientWidth</span><span class="p">;</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">deviceWidth</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientWidth</span><span class="p">;</span>
 <span class="k">if</span><span class="p">(</span><span class="nx">deviceWidth</span> <span class="o">&gt;</span> <span class="mi">320</span><span class="p">)</span> <span class="nx">deviceWidth</span> <span class="o">=</span> <span class="mi">320</span><span class="p">;</span>
 <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">fontSize</span> <span class="o">=</span> <span class="nx">deviceWidth</span> <span class="o">/</span> <span class="mf">3.2</span> <span class="o">+</span> <span class="s1">'px'</span><span class="p">;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>不过这个的前提，视口要如下设置：</p>
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"initial-scale=1,maximum-scale=1, minimum-scale=1"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"initial-scale=1,maximum-scale=1, minimum-scale=1"</span><span class="nt">&gt;</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>OK，这两段代码就可以解决移动端自适应的问题了，当然还有不懂的话看下面的参考，里面写得很详细。</p>
-<h4 id="section-2">参考</h4>
+<h4 id="参考">参考</h4>
 <p><a href="http://www.cnblogs.com/lyzg/p/4877277.html">从网易与淘宝的font-size思考前端设计稿与工作流 </a>
 <a href="http://www.duanliang920.com/learn/web/html5/316.html">WebApp开发之–“rem”单位</a></p>
 
@@ -359,13 +357,17 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
                             
         				
                             
-                				<a href="/tags/#生活" title="生活" rel="3">
+                				<a href="/tags/#生活" title="生活" rel="4">
                                     生活
                                 </a>
                             
         				
                             
         				
+                            
+                				<a href="/tags/#个人总结" title="个人总结" rel="2">
+                                    个人总结
+                                </a>
                             
         				
                             
@@ -547,7 +549,7 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
 
                   </ul>
                   <p class="copyright text-muted">
-                      Copyright &copy; ZGX Blog 2017
+                      Copyright &copy; ZGX Blog 2018
                       <br>
                       Theme by <a href="http://www.zgx.ac.cn">ZGX</a> | 坚持为贵
 

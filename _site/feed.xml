@@ -3,11 +3,120 @@
   <channel>
     <title>ZGX Blog</title>
     <description>刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Aug 2017 00:41:05 +0800</pubDate>
-    <lastBuildDate>Tue, 08 Aug 2017 00:41:05 +0800</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <link>http://www.zgx.ac.cn/</link>
+    <atom:link href="http://www.zgx.ac.cn/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 04 Jan 2018 00:19:26 +0800</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2018 00:19:26 +0800</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>2017年个人总结</title>
+        <description>&lt;p&gt;前几天，在朋友圈、知乎看到了好多的年终总结。元旦旅游回来赫然在今天的to do list写上年终总结。当然，我并不是跟风，从大一开始我每年都有写年终总结，不同的是在那个博客时代我只是把文字写在了QQ空间，而在这个自媒体时代我选择了个人博客。回顾自己一年的得失与成长，看到过去一年的点点滴滴也是一种享受。当然，在外人看来或许会说矫情，或许会感到虚无缥缈，不过在我看来确是实实在在的。&lt;/p&gt;
+
+&lt;p&gt;在我的&lt;a href=&quot;http://www.zgx.ac.cn/2017/01/02/sunmery2016/&quot;&gt;2016个人总结&lt;/a&gt;里，给自己定了几个计划。很遗憾Github上commit图还是依旧空白，专业书还在积灰。幸运的是不断维护着自己的博客，坚持着跑步，参加了全马，也出门旅行。&lt;/p&gt;
+
+&lt;h2 id=&quot;1&quot;&gt;1&lt;/h2&gt;
+
+&lt;p&gt;这一年的伊始，收到的自然是老妈的嘱托：过年带个姑娘回来，孝顺的我自然不敢辜负老妈的嘱托。所以这一年我在网易云音乐听到最多的歌词就是“姑娘”，1653次。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151497785815920.jpg&quot; alt=&quot;网易云听到最多的歌词&quot; /&gt;
+然后没有了然后了…&lt;/p&gt;
+
+&lt;h2 id=&quot;2&quot;&gt;2&lt;/h2&gt;
+
+&lt;p&gt;这一年发现跟朋友之间的联系越来越少了，前几天朋友圈被“18岁的照片”疯狂刷屏，原因大家也都知道。貌似我们已不再年轻，也不能再任性，时间的残酷让人无法想象，不仅改变着我们，也改变着朋友之间的关系，那几天我翻开了QQ空间的相册，18岁的回忆充满着美好，不过却发现好多原先挺要好的朋友已经好几年没联系过了，走了不同的轨迹，少了联系，时间都在悄悄的改变着我们。或许，哪天见面还能喝几杯。&lt;br /&gt;
+嗯，18岁时的我！
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498562457543.png&quot; alt=&quot;网易云听到最多的歌词&quot; /&gt;
+2017，庆幸的是几个大学室友和同学来到了深圳，工作之余，还可以约出来聚聚。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499270476247.png&quot; alt=&quot;大学室友&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499250487331.png&quot; alt=&quot;大学同学&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2018，珍惜好现有还在联系中的好朋友。&lt;/p&gt;
+
+&lt;h2 id=&quot;3&quot;&gt;3&lt;/h2&gt;
+
+&lt;p&gt;这一年的工作，在技术上也成长了不少，学习了Vue.js，使用它搭建了项目，上线了一个公司的网站。2017，前端的技术发展太快，除非基础很好，不然要是说自己不会个mvvm框架，确实工作好像就没那么好找了。技术的迭起更需要自己的自学，2017，貌似在这方面上自己的计划没赶上变化。2018，打算着重从CSS学起。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499435159907.png&quot; alt=&quot;工作&quot; /&gt;
+2017，对于工作，还是和16年一样，没啥成就感，完成了公司的任务，做一些自己感兴趣的小项目。很开心和公司的大佬们一起工作，不过希望需求不要太多，时间不要太紧。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499477816289.png&quot; alt=&quot;nmb&quot; /&gt;
+工作中我一般都是不骂人的。&lt;/p&gt;
+
+&lt;h2 id=&quot;4&quot;&gt;4&lt;/h2&gt;
+
+&lt;p&gt;这一年应该是我跑步次数最多、公里数最长的一年。从去年开始断断续续跑，到今年的开始坚持，只能说痛并快乐着，跑步会让人上瘾。当然有人会问，为什么你会这么热衷于跑步？跑步给你带来哪些好处？引用知乎上的一个回答：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;有些回报是有名额限制的，无论有多少人很努力，
+只有少数几个最努力的才有回报。
+比如，创业，升学，打比赛。
+但是有些回报是没有名额限制的
+比如，健身，这世界上可以允许有无数的肌肉男女。
+如果你的成功定义是超越别人，那么注定会失败，
+因为世上总有比你强的人。
+如果成功的定义是超越自己，那么真的只要努力就会成功。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2017，报了上海、厦门、东莞、深圳的马拉松。很遗憾也很幸运中了一个深马，当然，这要感谢一起报名的其他四个朋友，团体赛的报名中签率就是比较高。全马的过程不做多描述，比平常和朋友在深圳湾一起跑放松多了，有气氛，两边的加油声促使你不断前行。关于跑步，有太多的鸡汤，跑步对我们身心有着种种好处！所以，2018我想我应该会参加继续报名马拉松，继续跑步，尽管跑步本身，从来就不是一项充满乐趣的运动。
+&lt;img src=&quot;http://function.bypanda.cn/2018010315149798689277.png&quot; alt=&quot;马拉松&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/2018010315149799747850.png&quot; alt=&quot;马拉松奖牌&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5&quot;&gt;5&lt;/h2&gt;
+
+&lt;p&gt;这一年，喜欢上了两部电影，一部是《寻梦环游记》，一部是《芳华》。&lt;br /&gt;
+《寻梦环游记》让我记得一个最不会受非议的价值观——家人最重要。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498015547746.png&quot; alt=&quot;寻梦环游记&quot; /&gt;
+《芳华》让我觉得每个时代的美与丑，都可以映射到今天。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498035945991.png&quot; alt=&quot;芳华&quot; /&gt;
+ 每一年总有一部电影让自己怀念，2018应该为自己喜欢的电影写写影评，毕竟电影最容易给我们带来慰藉和快乐。看看电影，看看他们的故事，也许故事里也有你。&lt;br /&gt;
+ 这一年，也开始喜欢上乐器，买了一把二手吉他，也从朋友那里借了一把更好的吉他。两把吉他，坚持了一个多月，弹了首兰花草和灰姑娘，就没有了然后了，从同事那借了把尤克里里现在还在积灰。坚持从来就是一件很简单的事，立个flag写下后面吧。
+&lt;img src=&quot;http://function.bypanda.cn/20180104151499561820289.png&quot; alt=&quot;吉他&quot; /&gt;
+貌似也买了许多书，可惜时间都贡献给了手机，2017，看的最多应该是知乎吧。
+&lt;img src=&quot;http://function.bypanda.cn/20180104151499616170319.jpg&quot; alt=&quot;知乎&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6&quot;&gt;6&lt;/h2&gt;
+&lt;p&gt;这一年，最远的一次旅行就是去菲律宾潜水，作为一个旱鸭子很幸运的能在一望无际的海里进行一次深潜体验。2018年就立个 flag，学会游泳，考本OW。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498089185505.jpg&quot; alt=&quot;潜水&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498077138255.png&quot; alt=&quot;海滩&quot; /&gt;
+当然还有几次的短途旅行，去了几次香港、和同事去清远漂流、公司出游、带深圳的朋友去厦门漳州游玩。文笔有限，图片来凑吧。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498441121291.png&quot; alt=&quot;香港1&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498424992027.png&quot; alt=&quot;香港2&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498413050690.png&quot; alt=&quot;香港3&quot; /&gt;
+&lt;!-- ![香港4](http://function.bypanda.cn/20180103151498461158568.png) --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://function.bypanda.cn/20180103151498622832735.png&quot; alt=&quot;厦门1&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/2018010315149863163839.png&quot; alt=&quot;厦门2&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498646752575.png&quot; alt=&quot;漳州1&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499306928554.png&quot; alt=&quot;清远&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499336482489.png&quot; alt=&quot;较场尾&quot; /&gt;
+&lt;img src=&quot;http://function.bypanda.cn/20180103151498688663347.png&quot; alt=&quot;公司合照&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;7&quot;&gt;7&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;2018 Todo List&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;学好css&lt;/li&gt;
+  &lt;li&gt;攒点钱&lt;/li&gt;
+  &lt;li&gt;学一些node的东西&lt;/li&gt;
+  &lt;li&gt;继续跑步、参加马拉松&lt;/li&gt;
+  &lt;li&gt;学会尤克里里和吉他&lt;/li&gt;
+  &lt;li&gt;学好英语、去旅行，考本OW。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;end&quot;&gt;END&lt;/h2&gt;
+
+&lt;p&gt;今天的朋友圈被支付宝账单和年度关键字给刷屏了，当然这要归功与支付宝的走心文案。&lt;br /&gt;
+我的走心文案是快乐，2017确实是有很多不快乐，当然这些不会出现在文字中。希望2018真的快乐。
+&lt;img src=&quot;http://function.bypanda.cn/20180103151499346057267.jpg&quot; alt=&quot;快乐&quot; /&gt;
+2018，快乐就好。&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 +0800</pubDate>
+        <link>http://www.zgx.ac.cn/2018/01/03/summary2017/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2018/01/03/summary2017/</guid>
+        
+        <category>生活</category>
+        
+        <category>个人总结</category>
+        
+        
+      </item>
     
       <item>
         <title>Vue与Angular的撕逼</title>
@@ -69,8 +178,8 @@
 
 </description>
         <pubDate>Mon, 07 Aug 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/08/07/talk-vue-angular/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/07/talk-vue-angular/</guid>
+        <link>http://www.zgx.ac.cn/2017/08/07/talk-vue-angular/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/08/07/talk-vue-angular/</guid>
         
         <category>vue.js</category>
         
@@ -85,7 +194,7 @@
 
 &lt;p&gt;对于香港旅游，给我的印象是买，买，买！当然，出来买之外呢，最主要的是去看看风景，毕竟未知的地方总是那么的吸引人。为此我先在手机上做了提醒事项，当做是计划吧。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/165215248.png&quot; alt=&quot;计划&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;section&quot;&gt;一些准备&lt;/h3&gt;
+&lt;h3 id=&quot;一些准备&quot;&gt;一些准备&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;团签过关签注&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;我的港澳通行证是团签的，原则上是规定跟团进入香港。所以过关时需要有旅行团的签注（当然像我朋友是个人签就不需要了）。在淘宝上提前买（最晚提前一天），价格相对于在关口那边买来得便宜很多,关口好像是四五十，淘宝2块钱解决。我的是罗湖关口出关。在淘宝上讲要去香港的时间发送给旅行社，他们好给你办签注单。等到深圳关口是罗湖关口再打电话给旅行社的人，之后拿着通行证和签注单过关。&lt;/p&gt;
@@ -134,8 +243,8 @@
 
 &lt;p&gt;强大的即时语音翻译（当然会讲粤语就更好了，可惜我和我朋友都不会）&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;出行&lt;/h3&gt;
-&lt;h4 id=&quot;section-2&quot;&gt;第一站：旺角&lt;/h4&gt;
+&lt;h3 id=&quot;出行&quot;&gt;出行&lt;/h3&gt;
+&lt;h4 id=&quot;第一站旺角&quot;&gt;第一站：旺角&lt;/h4&gt;
 &lt;p&gt;来旺角逛街千万不要乱逛，特别是商场，为了好好掌握行程的时间，出发前先想好你想买什麽，然后研究你会逛的商场，没办法旺角有太多商场了。你真的要把这里的商场逛完，一天百分百是不够逛的。&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;信和中心&lt;/li&gt;
@@ -156,7 +265,7 @@
 
 &lt;p&gt;几乎每个去香港旅游的女孩子都不会错过香港SaSa。香港SaSa几乎已经成了内地赴港扫货的必去地之一。建议呢，去SaSa买化妆品或者护肤品的话，可以提前做好购买的清单，选购的时候就心中有数了。旺角的SaSa有很多店面，谷歌地图开起来肯定能找到一家，然后就可以尽情买自己喜欢的东西了。SaSa莎莎粉红色的标志很显眼就不上图了。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-3&quot;&gt;第二站：尖沙咀&lt;/h4&gt;
+&lt;h4 id=&quot;第二站尖沙咀&quot;&gt;第二站：尖沙咀&lt;/h4&gt;
 &lt;p&gt;在旺角逛完到尖沙咀都已经快中午12点了。到了尖沙咀站，从E出口出，因为已经到中午了，当然是先解决午饭再说。一直听说香港生活物价高，从吃饭价格确实可以看得出来，在E出口旁边随便进去了一家饭馆。我点了一份牛肉饭，我朋友不想吃饭，只点一杯抹茶芭菲，加上服务费就去了81港币了。味道还是不错的。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/170931012.png&quot; alt=&quot;mark&quot; /&gt;
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/171107057.png&quot; alt=&quot;mark&quot; /&gt;
@@ -182,7 +291,7 @@
 &lt;p&gt;加上滤镜就感觉不一样了。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/173927604.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;ifc&quot;&gt;第三站：ifc&lt;/h4&gt;
+&lt;h4 id=&quot;第三站ifc&quot;&gt;第三站：ifc&lt;/h4&gt;
 
 &lt;p&gt;ifc是香港最大的商场之一，需要扫货的朋友们请带着箱子来。女生的话可以带在这里搭帐篷，呆上十天半个月把这里的店铺逛完（当然签证一次最多只能呆7天）。下船后上天桥过马路，到对面的ifc，在天桥上可以看到对面很高大上的苹果香港官方旗舰店。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/172636025.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
@@ -194,7 +303,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://function.bypanda.cn/blog/20170521/172749824.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;section-4&quot;&gt;第四站：中环&lt;/h4&gt;
+&lt;h4 id=&quot;第四站中环&quot;&gt;第四站：中环&lt;/h4&gt;
 &lt;p&gt;严格来讲ifc就是位于中环的，我们从金融管理局走之后打算到圣约翰教堂。从国金出发，经过哥哥跳楼的文华酒店。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/173104414.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
@@ -204,7 +313,7 @@
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/173543647.png&quot; alt=&quot;mark&quot; /&gt;
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/173618385.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;section-5&quot;&gt;第五站：太平山顶&lt;/h4&gt;
+&lt;h4 id=&quot;第五站太平山顶&quot;&gt;第五站：太平山顶&lt;/h4&gt;
 &lt;p&gt;圣约翰教堂出来之后再去中环走一会到巴士总站，搭15路巴士到太平山顶，巴士费用是9.8港币。我们到太平山顶的时候才6点半，天还是很亮。夜景的时间是7点半才慢慢天黑下来，我们上来山顶的最为主要的目的是看夜景，山上其实也是一个很大的购物商场，也有其他地方可以逛一下。在购物商场里面有个香港杜莎夫人蜡像馆，排队的人太多就没进去了。然后就在山顶看看风景。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/174543702.png&quot; alt=&quot;mark&quot; /&gt;
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/174118928.png&quot; alt=&quot;mark&quot; /&gt;
@@ -214,7 +323,7 @@
 &lt;p&gt;山顶上风挺大的，我穿着短袖真的会感觉到冷。这里要再说一下，往返太平山顶的路线有两种，巴士和缆车。但是对于第一来的我来说，也只能说我没做好攻略，我以为缆车还可以带我们上去更高的地方（我怎么这么蠢），然后就跟我朋友说咱们去坐缆车吧，然后我朋友以为我很冷想早点下去就同意了。坐缆车的费用是32港币。于是我们就排队做着缆车下来了（坐上缆车之后我才知道缆车是送我们下来的！！！）到山下的时候天刚好黑下来，也就是夜景刚好可以看到，然而我已经下来了。此时只剩下我朋友（哈哈哈哈哈哈哈）的笑声了。我的太平山顶之行就这么匆匆结束了。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170521/174334685.png&quot; alt=&quot;mark&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;section-6&quot;&gt;第六站：兰桂坊&lt;/h4&gt;
+&lt;h4 id=&quot;第六站兰桂坊&quot;&gt;第六站：兰桂坊&lt;/h4&gt;
 
 &lt;p&gt;太平山顶下来之后我的计划已经都执行了，于是在网上查查中环附近晚上哪里好玩。看到了一个地点——兰桂坊（夜市）。&lt;/p&gt;
 
@@ -233,8 +342,8 @@
 
 </description>
         <pubDate>Sun, 21 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/21/hongkong/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/21/hongkong/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/21/hongkong/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/21/hongkong/</guid>
         
         <category>生活</category>
         
@@ -257,28 +366,26 @@
   &lt;li&gt;github上fork心仪的jekyll模板，本地jekyll serve运行相应的博客&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;ruby&quot;&gt;安装ruby&lt;/h3&gt;
+&lt;h3 id=&quot;安装ruby&quot;&gt;安装ruby&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;下载ruby&lt;/strong&gt;
 在windows上它不像mac有自带ruby，所有首先安装ruby，到&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;ruby下载地址&lt;/a&gt;下载对应的ruby版本。推荐下载2.0.0，其他的版本没实践过。然后根据自己电脑的系统选择对应的ruby，当然还有对应DEVELOPMENT KIT的下载。
 &lt;strong&gt;安装ruby2.0.0&lt;/strong&gt;
 下载完安装包后，先安装rubyinstaller, 记得尽量以&lt;strong&gt;管理员的权限&lt;/strong&gt;安装 安装时会有三个选项。
 &lt;img src=&quot;http://function.bypanda.cn/ruby.jpg&quot; alt=&quot;环境变量&quot; /&gt;
 请全部选上。全部选上在安装完毕后，环境变量也会自动配置。安装完之后win+R进入控制台输入命令&lt;strong&gt;ruby -v&lt;/strong&gt;，如果显示版本号则表示安装成功。&lt;/p&gt;
-&lt;h3 id=&quot;evelopment&quot;&gt;安装EVELOPMENT&lt;/h3&gt;
+&lt;h3 id=&quot;安装evelopment&quot;&gt;安装EVELOPMENT&lt;/h3&gt;
 &lt;p&gt;安装完ruby后，接着安装DevKit(请确保管理员权限安装) 点击安装，选择完对应的目标（默认地址就行了）后，点击确认即会自动提取。
 在windows的命令行cd到安装的目录下，输入&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb init
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;待运行完毕后，该目录中会自动生成一个config.yml文件。将文件的内容修改成以下：
 &lt;img src=&quot;http://function.bypanda.cn/ruby2.png&quot; alt=&quot;config&quot; /&gt;
 也就是在文件内容的后面加上：&lt;strong&gt;- C:\Ruby200-x64&lt;/strong&gt; ，这个表示的是刚才安装ruby的路径地址。修改完之后，继续在控制台输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;至此，代表Development Kit已经正确安装并成功配置。&lt;/p&gt;
 
-&lt;h3 id=&quot;source&quot;&gt;更改默认的source源&lt;/h3&gt;
+&lt;h3 id=&quot;更改默认的source源&quot;&gt;更改默认的source源&lt;/h3&gt;
 &lt;p&gt;鉴于官方源无法访问，所以我们得更换为可以使用的源，这里推荐使用&lt;a href=&quot;https://gems.ruby-china.org/&quot;&gt;ruby china源&lt;/a&gt;，大致步骤如下:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -288,44 +395,39 @@
   &lt;li&gt;修改来源后可以通过&lt;strong&gt;gem sources -l&lt;/strong&gt;查看是否正确修改&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;jekyll&quot;&gt;安装jekyll&lt;/h3&gt;
+&lt;h3 id=&quot;安装jekyll&quot;&gt;安装jekyll&lt;/h3&gt;
 &lt;p&gt;安装jekyll前先按照依赖包bundler，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;按照依赖包bundler之后，直接安装jekyll，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;安装需要一定的时间，过一段时间正常安装后即代表jekyll可以开始使用了。&lt;/p&gt;
 
-&lt;h3 id=&quot;jekyll-1&quot;&gt;使用jekyll&lt;/h3&gt;
+&lt;h3 id=&quot;使用jekyll&quot;&gt;使用jekyll&lt;/h3&gt;
 &lt;p&gt;这个步骤跟前面在mac上安装使用jekyll是差不多的。&lt;/p&gt;
 
 &lt;p&gt;首先，你可以到&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;上面找一个自己喜欢的jekyll模板，然后将对应的项目git clone到自己本地的目录下，同样用cmd命令进入对应的目录。&lt;/p&gt;
 
 &lt;p&gt;输入以下命令生成博客，默认生成再_site目录下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;开启jekyll本地预览服务：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;在浏览器中输入 http://localhost:4000 即可访问博客站点。
 如果出现Error：jekyll-paginate
 &lt;img src=&quot;http://function.bypanda.cn/jekyll.jpg&quot; alt=&quot;error&quot; /&gt;
 输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll-paginate
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll-paginate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;再不能访问请检查_config.yml配置文件是否需要修改。&lt;/p&gt;
 
 &lt;p&gt;部署到Github pages请移驾到&lt;a href=&quot;http://www.zgx.ac.cn/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/17/windows-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/17/windows-jekyll/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/17/windows-jekyll/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/17/windows-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -340,7 +442,7 @@
         <title>在mac上安装Jekyll</title>
         <description>&lt;p&gt;作为一个程序员，特别是一个前端，将Blog挂在大众博客上面就太没意思了。当然并不是说把Blog挂在大众博客上面没意义，只是个人感觉现在的大众博客页面都太丑了，除了简书的页面好点，其他的更是广告横飞。于是这个基于GitHub Pages + Jekyll 的博客主题就这么被我折腾出来了。&lt;/p&gt;
 
-&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll是什么？&lt;/h3&gt;
+&lt;h3 id=&quot;jekyll是什么&quot;&gt;Jekyll是什么？&lt;/h3&gt;
 
 &lt;p&gt;Jekyll是一个简单静态博客生成工具，为什么是静态，因为它是不需要数据库的，通过markdown编写静态文件，生成Html页面。它有什么优点呢？&lt;/p&gt;
 &lt;ul&gt;
@@ -350,72 +452,61 @@
   &lt;li&gt;Jekyll 的自定制非常容易，基本就是个模版引擎&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;homebrew&quot;&gt;安装Homebrew&lt;/h3&gt;
+&lt;h3 id=&quot;安装homebrew&quot;&gt;安装Homebrew&lt;/h3&gt;
 
 &lt;p&gt;使用Mac的程序员必不可少的一步便是安装Homebrew, Homebrew是基于Ruby安装, Mac默认自带Ruby。
 运行以下命令进行安装：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;ruby&quot;&gt;安装最新版ruby&lt;/h3&gt;
+&lt;h3 id=&quot;安装最新版ruby&quot;&gt;安装最新版ruby&lt;/h3&gt;
 
 &lt;p&gt;Mac上是有默认自带Ruby，我们要做的事将它更新为最新的版本。使用刚才安装好的Homebrew进行安装，输入命令行：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install ruby
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install ruby
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;安装完成之后，会提示安装好的ruby目录为&lt;strong&gt;/usr/local/Cellar/ruby/2.4.1&lt;/strong&gt;,想要最新安装的ruby生效，需要将&lt;strong&gt;~/.zshrc&lt;/strong&gt;配置文件中的环境变量PATH中添加上新版本ruby的目录，在PATH后添加上ruby安装目录的bin文件夹，如下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=&quot;/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/ruby/2.4.1/bin&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=&quot;/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/ruby/2.4.1/bin&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;然后输入命令：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;输入命令&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;查看ruby版本，显示的将是最新的版本&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin15]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin15]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;如果，版本不对，就使用命令&lt;strong&gt;echo $PATH&lt;/strong&gt;查看最新版本的ruby目录是否在环境变量PATH中，如果不对，就按照上述过程修改环境变量PATH&lt;/p&gt;
 
-&lt;h3 id=&quot;jekyll-1&quot;&gt;安装jekyll&lt;/h3&gt;
+&lt;h3 id=&quot;安装jekyll&quot;&gt;安装jekyll&lt;/h3&gt;
 &lt;p&gt;输入命令行：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;因为我们将会使用Markdown语言作为标记语言，所以还需要安装kramdown，命令如下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install kramdown
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install kramdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;至此，jekyll已经安装成功了，可以在本地上运行环境了。&lt;/p&gt;
 
-&lt;h3 id=&quot;jekyll-2&quot;&gt;使用jekyll&lt;/h3&gt;
+&lt;h3 id=&quot;使用jekyll&quot;&gt;使用jekyll&lt;/h3&gt;
 
 &lt;p&gt;首先，你可以到&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;上面找一个自己喜欢的jekyll模板，然后将对应的项目git clone到自己本地的目录下，同样用cmd命令进入对应的目录。&lt;/p&gt;
 
 &lt;p&gt;输入以下命令生成博客，默认生成再_site目录下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;开启jekyll本地预览服务：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;在浏览器中输入 http://localhost:4000 即可访问博客站点
 不能访问请检查_config.yml配置文件是否需要修改&lt;/p&gt;
 
 &lt;p&gt;在本地上可以预览博客站点后就可以使用Jekyll写博文，进入博客目录的_post文件夹，撰写的markdown语法的博文都放在这里。如何撰写可以参考&lt;a href=&quot;http://jekyllcn.com/docs/posts/&quot;&gt;jekyll中文网&lt;/a&gt;,这里就不写了。写完之后刷新一下浏览器、发现页面并没有变化.因为我们还没有通过Jekyll build去生成。&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;然后再输入命令&lt;strong&gt;jekyll serve&lt;/strong&gt;进行本地预览。&lt;/p&gt;
 
 &lt;p&gt;jekyll目录结构&lt;/p&gt;
@@ -427,38 +518,36 @@
   &lt;li&gt;_coinfig.yml：jekyll的配置文件，里面可以定义相当多的配置参数，具体配置参数可以参照其官网&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;github-pages&quot;&gt;部署Github pages服务&lt;/h3&gt;
+&lt;h3 id=&quot;部署github-pages服务&quot;&gt;部署Github pages服务&lt;/h3&gt;
 
 &lt;p&gt;部署到Github Page，首先肯定要有github账号，没有的话自己去注册一个。然后创建一个跟你账户名一样的仓库，如我的github账户名叫zgxpro， github仓库名就叫 zgxpro.github.io，创建好了之后，把刚才建立的 myBlog 项目 push 到username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入username.github.io ，就可以访问你的博客了。 　
 本地Jekyll站点部署到Github Pages的命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all               #添加到暂存区    
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all               #添加到暂存区    
 git commit -m &quot;提交jekyll默认页面&quot; #提交到本地仓库
 git push origin master           #线上的站点是部署在master下面的
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;稍等个几分钟左右，Github Pages有一定时间缓存,我们刷新username.github.io看看,已经ok了！&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;绑定个人域名&lt;/h3&gt;
+&lt;h3 id=&quot;绑定个人域名&quot;&gt;绑定个人域名&lt;/h3&gt;
 &lt;p&gt;一般情况下，别人想访问的是咱们自己的个人网站，而不是去访问username.github.io。所以就要为username.github.io绑定个人域名。
 我们要绑定的话需要在username.github.com目录下增加一个CNAME文件。
 在里面添加你的域名，假设为example.com，然后推送CNAME文件到远程仓库:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add CNAME
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add CNAME
 git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;到域名服务商增加你的CNAME记录。
 添加两条记录，@和www的主机记录，记录类型为CNAME类型，CNAME表示别名记录，该记录可以将多个名字映射到同一台计算机。
 记录值请写username.github.io.,值得注意的是io后面还有一个圆点，切记。
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/21868-188b926c62db15e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;CNAME记录&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;后记&lt;/h3&gt;
+&lt;h3 id=&quot;后记&quot;&gt;后记&lt;/h3&gt;
 &lt;p&gt;稍等几分钟，刷新自己的博客地址，我的博客域名是&lt;a href=&quot;http://www.zgx.ac.cn/&quot;&gt;zgx.ac.cn&lt;/a&gt;，就能直接访问了。
 差不多就这样了，之后你可以在_posts文件夹里继续撰写博文，然后按照上面步骤上传到github即可。&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 15 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/15/mac-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/15/mac-jekyll/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/15/mac-jekyll/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/15/mac-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -471,29 +560,26 @@ git push origin master
     
       <item>
         <title>在mac上搭建vue-cli开发环境</title>
-        <description>&lt;h3 id=&quot;section&quot;&gt;准备工作&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;准备工作&quot;&gt;准备工作&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;安装node（直接到中文官网&lt;a href=&quot;http://nodejs.cn&quot;&gt;http://nodejs.cn&lt;/a&gt;下载安装包进行安装，步骤就不介绍了）&lt;/li&gt;
   &lt;li&gt;安装淘宝镜像cnpm，mac电脑npm命令需要加sudo授权，输入命令：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo npm install -g cnpm --registry=http://registry.npm.taobao.org
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo npm install -g cnpm --registry=http://registry.npm.taobao.org
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;安装vue-cli，输入命令：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cnpm install -g vue-cli
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cnpm install -g vue-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;vue-cli&quot;&gt;使用vue-cli来构建项目&lt;/h3&gt;
+&lt;h3 id=&quot;使用vue-cli来构建项目&quot;&gt;使用vue-cli来构建项目&lt;/h3&gt;
 
 &lt;p&gt;通过以上步骤，我们需要准备的环境和工具都准备好了，接下来就开始使用vue-cli来构建项目。
 cd到需要创建项目的文件夹，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vue init webpack fileName
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vue init webpack fileName
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;fileName是文件夹名称，webpack为模版，下面是cli自带的几个模板。
 &lt;img src=&quot;http://function.bypanda.cn/1A1F8FF0-4DBC-4888-87A2-5BC2DA33D643.png&quot; alt=&quot;cli模板&quot; /&gt;
 运行初始化命令的时候回让用户输入几个基本的选项，如项目名称，描述，作者等信息，如果不想填直接回车默认就好。
@@ -501,31 +587,28 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;img src=&quot;http://function.bypanda.cn/2D6750C5-793A-4154-8C23-C6D87B1AF1FC.png&quot; alt=&quot;&quot; /&gt;
 配置完成后，可以看到目录下多出了一个项目文件夹，里面就是 vue-cli 创建的一个基于 webpack 的 vue.js 项目
 然后进入项目目录（cd fileName），使用 cnpm 安装依赖，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cnpm install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cnpm install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;安装完成之后，会在我们的项目目录fileName文件夹中多出一个node_modules文件夹，这里边就是我们项目需要的依赖包资源。
 &lt;img src=&quot;http://function.bypanda.cn/C754316A-9896-46EB-B7FE-9E9188D02422.png&quot; alt=&quot;依赖包资源&quot; /&gt;
 安装完依赖包之后，就可以运行整个项目了,输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run dev
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;npm run dev&lt;/strong&gt;，会用热加载的方式运行我们的应用，热加载可以让我们在修改完代码后不用手动刷新浏览器就能实时看到修改后的效果。
 简单介绍下&lt;strong&gt;npm run dev&lt;/strong&gt;命令，其中的&lt;strong&gt;“run”&lt;/strong&gt;对应的是package.json文件中，scripts字段中的dev，也就是 node build/dev-server.js命令的一个快捷方式。
 项目运行成功后，浏览器会自动打开localhost:8080（如果浏览器没有自动打开，可以手动输入）。运行成功后，会看到有vue图标显示的界面。
 如果浏览器打开之后，没有加载出页面，有可能是本地的 8080 端口被占用，需要修改一下配置文件 config&amp;gt;index.js
 &lt;img src=&quot;http://function.bypanda.cn/EF62DEB2-9695-423D-AED2-B2006DAD6AD9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;section-1&quot;&gt;打包上线：&lt;/h3&gt;
+&lt;h3 id=&quot;打包上线&quot;&gt;打包上线：&lt;/h3&gt;
 &lt;p&gt;自己的项目文件都需要放到 src 文件夹下。项目开发完成之后，可以输入 &lt;strong&gt;npm run build&lt;/strong&gt; 来进行打包工作。&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;打包完成后，会生成 dist 文件夹，如果已经修改了文件路径，可以直接打开本地文件查看。项目上线时，只需要将 dist 文件夹放到服务器就行了。&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 04 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/04/vue-cli/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/04/vue-cli/</guid>
+        <link>http://www.zgx.ac.cn/2017/05/04/vue-cli/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/04/vue-cli/</guid>
         
         <category>前端开发</category>
         
@@ -581,7 +664,7 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 &lt;p&gt;在这整个 Blog 中，我将把目前的 ECMAScript 版本称作 ES6（因为这是大部分开发者最习以为常的），把明年的规范称作 ES2016（因为，与 ES6/ES2015 不同，这个名字将在整个标准化过程中沿用）并且将那些还没有成为 ECMAScript 定稿或草案的未来语言概念称为 ECMAScript 提案或者 JavaScript 提案。我将尽我所能在任何可能引起困惑的场合沿用这篇文章。&lt;/p&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;一些资源&lt;/h4&gt;
+&lt;h4 id=&quot;一些资源&quot;&gt;一些资源&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;TC39 的 &lt;a href=&quot;https://github.com/tc39/ecma262&quot;&gt;Github 仓库&lt;/a&gt;上可以看到所有目前公开的提案&lt;/li&gt;
@@ -592,13 +675,13 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;p&gt;&lt;img class=&quot;shadow&quot; width=&quot;320&quot; src=&quot;/img/in-post/post-js-version/keep-calm-and-learn-javascript.png&quot; /&gt;
 &lt;small class=&quot;img-hint&quot;&gt;来学 JavaScript 吧！&lt;/small&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;著作权声明&lt;/h4&gt;
+&lt;h4 id=&quot;著作权声明&quot;&gt;著作权声明&lt;/h4&gt;
 
 &lt;p&gt;本文转载自&lt;a href=&quot;http://weibo.com/huxpro&quot;&gt;黄玄&lt;/a&gt;&lt;a href=&quot;http://huangxuan.me&quot;&gt;Hux Blog&lt;/a&gt;。&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Apr 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/04/22/version/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/22/version/</guid>
+        <link>http://www.zgx.ac.cn/2017/04/22/version/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/04/22/version/</guid>
         
         <category>前端开发</category>
         
@@ -625,8 +708,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 </description>
         <pubDate>Mon, 06 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/03/06/jiami/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/06/jiami/</guid>
+        <link>http://www.zgx.ac.cn/2017/03/06/jiami/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/03/06/jiami/</guid>
         
         <category>前端开发</category>
         
@@ -635,11 +718,11 @@ ESlint规范和单元测试暂时用不上可以都选no；
     
       <item>
         <title>eclipse+cordova搭建APP开发环境</title>
-        <description>&lt;h4 id=&quot;section&quot;&gt;一、工具&lt;/h4&gt;
+        <description>&lt;h4 id=&quot;一工具&quot;&gt;一、工具&lt;/h4&gt;
 &lt;p&gt;1、java sdk 1.6以上版本
 2、Android sdk、eclipse&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;二、环境配置&lt;/h4&gt;
+&lt;h4 id=&quot;二环境配置&quot;&gt;二、环境配置&lt;/h4&gt;
 &lt;p&gt;1、安装jdk。
 根据电脑系统安装对应的jdk版本，双击应用程序，直接下一步下一步直至安装完成。
 按&lt;strong&gt;window+r&lt;/strong&gt;进入控制台，输入 java,如弹出以下内容则表示安装成功。
@@ -660,7 +743,7 @@ ESlint规范和单元测试暂时用不上可以都选no；
  再输入android；弹出Android SDK Manage的页面则表示sdk,android环境配置成功。关闭Android SDK Manage即可。
  &lt;img src=&quot;http://function.bypanda.cn/blog/20170306/202507362.png?imageView2/1/w/680/h/500&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;cordova&quot;&gt;三、cordova下载和使用&lt;/h4&gt;
+&lt;h4 id=&quot;三cordova下载和使用&quot;&gt;三、cordova下载和使用&lt;/h4&gt;
 &lt;ol&gt;
   &lt;li&gt;下载并安装NodeJS
 双击应用程序，直接下一步直至安装结束。&lt;/li&gt;
@@ -690,13 +773,13 @@ b. 最后输入cordova platform add android #添加 Android 平台
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&quot;apk&quot;&gt;四、运行项目，生成APK&lt;/h4&gt;
+&lt;h4 id=&quot;四运行项目生成apk&quot;&gt;四、运行项目，生成APK&lt;/h4&gt;
 &lt;p&gt;回到eclipse中运行项目，可以连接手机查看，可以在模拟器中查看。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170307/003550831.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/02/11/app/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/11/app/</guid>
+        <link>http://www.zgx.ac.cn/2017/02/11/app/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/02/11/app/</guid>
         
         <category>前端开发</category>
         
@@ -711,23 +794,22 @@ b. 最后输入cordova platform add android #添加 Android 平台
     
       <item>
         <title>jQuery实现图片居中裁剪效果</title>
-        <description>&lt;h4 id=&quot;section&quot;&gt;长话短说&lt;/h4&gt;
+        <description>&lt;h4 id=&quot;长话短说&quot;&gt;长话短说&lt;/h4&gt;
 &lt;p&gt;在做网站的时候我们为了网站美观，常常需要上传一些图片来做美化，而图片又有各种不同尺寸，专业的网站编辑人员，会把图片处理成等比例的图片再上传，这样图片也不会发生变形。但显然在工作中，编辑并我们想象中的那么好，只要是图片就上传，其他的就不管了，这就出现了下面这样的情况–&amp;gt;
 将图片上传搭到一个300*300的div中:
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170108/195255644.jpg&quot; alt=&quot;图片是这样的：700*300&quot; /&gt;
 上传之后就成这样了：
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170108/195530097.png&quot; alt=&quot;在300*300的div中&quot; /&gt;
 很明显图片变形了，如何解决呢？上代码解决！&lt;/p&gt;
-&lt;h4 id=&quot;ok&quot;&gt;OK，上代码&lt;/h4&gt;
+&lt;h4 id=&quot;ok上代码&quot;&gt;OK，上代码&lt;/h4&gt;
 &lt;p&gt;就以上面图片为例，将700*300的图片传上长宽300的div中，实现居中裁剪。
 先看下html中的代码：&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;imgWrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;imgWrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
         &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;imgBox&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;图片地址&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;首先在CSS中定义好图片大小：&lt;/p&gt;
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.imgWrap&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.imgWrap&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -740,12 +822,11 @@ b. 最后输入cordova platform add android #添加 Android 平台
     &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;开始上脚本，在加载页面时遍历所有图片（我们例子中只有一张，显然工作中用的很多的图片，所以直接遍历），先判断其是否在缓存中，在缓存中则直接进行处理，不在缓存中则通过onload触发处理；（因为在定义onload事件之前缓存的图片就已经load好，导致onload事件不被触发；而不在缓存的图片，若直接处理，图片未load出来，原始尺寸会被Image对象认为是空图，width和height都是0）&lt;/p&gt;
 
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;oImg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgBox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'img'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//获取图片&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;liWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgBox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//获取img外面一层div的宽度&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;liHei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgBox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//获取img外面一层div的高度&lt;/span&gt;
@@ -764,11 +845,10 @@ b. 最后输入cordova platform add android #添加 Android 平台
 
         &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;将图片遍历出来后，开始定义图片进行处理，这里封装了一个函数：&lt;/p&gt;
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Imgcallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liHei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Imgcallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liHei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ImgWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
             &lt;span class=&quot;nx&quot;&gt;ImgHei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -788,101 +868,24 @@ b. 最后输入cordova platform add android #添加 Android 平台
         &lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'margin-top'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
         &lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'margin-left'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;这里主要的是判断两种情况，一种是宽大于高，就是例子中上传的这种图片，另外一种显然是宽小于高；从代码中可以看出，保持比例的前提下填充满位置，通过margin进行居中显示，再装进裁剪容器。
 OK，现在只差最后一步了，我们已经将图片居中裁剪的封装成函数了，哪里需要只要调用它就行了。如上面那例子要使用的话。调用它：&lt;/p&gt;
 
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgWrap'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgWrap'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;图片实现居中裁剪了，不再被压缩或拉伸。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170108/204045593.png&quot; alt=&quot;300*300&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/01/09/imgBox/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/09/imgBox/</guid>
+        <link>http://www.zgx.ac.cn/2017/01/09/imgBox/</link>
+        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/01/09/imgBox/</guid>
         
         <category>前端开发</category>
         
         <category>JavaScript</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>2016年个人总结</title>
-        <description>&lt;p&gt;前几天看了同事的年终总结，元旦假期又看了微信公众号”小道消息”创办者&lt;a href=&quot;http://dbanotes.net/review/my-2016-review.html&quot;&gt;冯大辉&lt;/a&gt;的年终总结，想想2016年里也经历了很多，虽不及大书特写，但觉得还是有必要记录一下，所以就胡乱写点，大家随意看看！ 
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170101/233728281.jpg?imageView2/1/w/580/h/336&quot; alt=&quot;再见2016，你好2017&quot; /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;section&quot;&gt;关于工作&lt;/h4&gt;
-&lt;p&gt;2016年初的时候，我预料不到我在一年里会发生这么多的事情，那时候，还在福州，气温骤降，寒气逼人，然后我就被外派到嘉兴出差了几天。于是乎，第一次出差就在零下5度的天气中度过。当时的想法是我想回农村，城会玩！带着这想法又折腾了好久好久(给你一个眼神，多久自己体会)，然后我真的回去了。嗯，辞职了~ 没有一点点防备，我就这样出现在深圳了。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/001512614.jpg?imageView2/1/w/460/h/200&quot; alt=&quot;还好我还活着！&quot; /&gt;
-本以为自己离开福州之后会留在厦门，并且在那里一直工作下去，毕竟厦门是我很想生活的一座城市，离家还特么近。但工作不是生活，在厦门找过工作(IT)应该都知道厦门的一个薪资标准，在知乎上也有人发起这样一个讨论：&lt;a href=&quot;https://www.zhihu.com/question/25525589&quot;&gt;来探讨下厦门IT工资&lt;/a&gt;。所以趁着年轻，我就到了传说中的四大城市(北上广深)的“深”来转转了~
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/010110693.jpg&quot; alt=&quot;我没钱！&quot; /&gt;
-讲道理，深圳工作真的是好找一些，特别对前端来说(前面好像忘了说自己就是搞前端的了)好吧，不过你要是问我那前端是干什么的？讲真，我也不知道，反正就是敲，有什么仇什么怨对着键盘就是干就对了！现在我是挺喜欢我这份工作，也和公司各位大佬们玩得挺好，就是希望呢，项目需求少一点，过年红包多一点！
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/000024491.jpg?imageView2/1/w/580/h/340&quot; alt=&quot;工作一天后的状态！&quot; /&gt;
-2016，对于工作，完成了不少项目，有成就感的并没有(因为赶时间，就是套框架，装插件)，基本就是按照公司项目流程走。&lt;/p&gt;
-
-&lt;h4 id=&quot;section-1&quot;&gt;关于学习&lt;/h4&gt;
-&lt;p&gt;前端这条路，水深。但很无奈，我已入坑，幸运的是还没被淹死！要学的东西实在是太多了，自己零零散散的学了AngularJS，ionic，Bootstrap，微信小程序！当然了，对于HTML5和CSS3，还是处于一直学习当中，还好工作中用的也比较多！而最最最主要的JavaScript，我几乎是没再好好学了，面试的时候问的最多的就是这个了。没办法，基础最重要，这个道理从读小学的时候老师就讲了，十几年过去了，现在才发现老师真没骗人！感觉那本红宝书(高程三)已经在向我招手，是时候应该好好的翻一遍了。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/020820421.jpg&quot; alt=&quot;好好学吧，少年&quot; /&gt;
-讲到学习，总结下读书吧，如果只从获取知识和信息角度来讲的话，读书曾经是最主要的方式，现在显然不是了（自己个人观点），我是觉得吧，我们并也不能以读书多少去衡量你到底摄入了多少的知识。反正呢，对于现在的我来说，我是觉得实践为主。不过我们读了这么多年的书，读书还是有它的优点的！不信你可以濯一下这个话题：&lt;a href=&quot;https://www.zhihu.com/question/28378880&quot;&gt;读书是为了干什么 ？真的能提高能力吗 ？&lt;/a&gt;。在双十一的时候我也购了挺多书来看，不为什么，就怕智商下降（毕竟情商已经很低了）！买的书分成学习型和消遣型，我相对于是属于后者的，无聊的时间总要消遣消遣，如果真要讲看完有什么收获，那也是被动的，因为买来的书真不想让它一直占着地方，而且凡事都讲目的，那就太low了。当然，技术的书还是得多刷，毕竟得靠这吃饭。上个月生日的时候收到公司送的一本ES6的书，前端的发展确定很快，ES5我还处于半蒙蔽状态，而不知不觉已经ES6了，听说今年要出ES7了。咳，还是别感慨，反正还是得学，对咯，还有node.js、微信小程序。。。&lt;/p&gt;
-
-&lt;h4 id=&quot;section-2&quot;&gt;关于生活&lt;/h4&gt;
-&lt;p&gt;程序猿折射出来的生活状态：
-生活历程：x 语言入门 —&amp;gt; x 语言应用实践 —&amp;gt; x 语言高阶编程 —&amp;gt; x 语言的科学与艺术 —&amp;gt; 编程之美 —&amp;gt; 编程之道 —&amp;gt; 编程之禅 —&amp;gt; 颈椎病康复指南 —&amp;gt; 腰间盘突出怎么疗 —&amp;gt; 已猝…………
-网上看到这个历程的，只能无奈的一笑了，虽然自己还未经历一些历程，但已经对自己的腰和脊椎深深的担忧了，回想下自己生活，只能希望那一天不会出现吧。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/025328459.png&quot; alt=&quot;几岁了&quot; /&gt;
-2016，对于生活，很高兴自己喜欢上了跑步，从跑个3公里就气喘吁吁，到现在来个10公里都不在话下。至于为什么喜欢上跑步了，这里引用村上春树在《当我谈跑步时我谈些什么》的一段话：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;你不需要别人来帮你，你也不需要任何特殊的设备，不一定要到特定的地方去。只要你有一双跑鞋、一条好的路，就可以跑得很高兴。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;来到深圳后我就报了深圳国际马拉松，很幸运中签了。就这样，没有经验（第一次跑马拉松，去年福州第一届马拉松并没有报，关键当时跑不动），没有装备（没有专业跑步鞋和紧身运动裤），就开始了第一个马拉松征程了。不过还好并不是一个人跑，有个朋友也中签了，很难得有个伴，过程就不描述了，挺顺利的！跑完后，有两个在深圳的朋友专门到终点接我们。当时问我跑完是啥感受，我真是说不出个所以然（很爽，很轻松）。休息了一下，四个人就这样骑着摩拜单车返了回去（说明还有体力）。
-话说今天厦门国际马拉松开跑，今年升级了，3万人全部是全程。如果没来深圳，我想我也报名了厦马了，当然能不能中签是另外一回事了，毕竟厦门是全国四大马拉松之一，国际金牌赛事运动，报名的人太多。明年除了报深马，也来报个厦马，希望幸运女神再次降临我。
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/025958212.jpg?imageView2/1/w/520/h/280&quot; alt=&quot;深圳国际马拉松&quot; /&gt;
-很喜欢高晓松写的一首歌《生活不止眼前的苟且》，这首歌在网上也是热议非凡，其中有很多这样的评论：父母尚在苟且，你却在炫耀诗和远方！而对于我来说或许生活不止眼前的苟且，还有远方的苟且！刚来深圳的时候，确实消费观被刷新了一下。从交通（以前公交，每天来回1.6元；现在地铁，每个月至少充个300），从租房（房子变小了，租金翻了一倍），或许我拿福州和深圳比本身就是不公平，而薪资的高低也将这个天平拉回平衡。前段时间看了&lt;a href=&quot;http://news.ifeng.com/a/20161024/50147713_0.shtml&quot;&gt;在深圳，年薪12万能过怎样的生活？&lt;/a&gt;，有种被生活强奸了的感受，不管怎样，生活还得继续，生命还在前进！2017，希望一切更好吧！
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/134624136.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;section-3&quot;&gt;关于爱情&lt;/h4&gt;
-&lt;p&gt;什么是爱情？
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/144213329.png&quot; alt=&quot;&quot; /&gt;
-哈哈，找了张图装逼而已。我是已经忘了爱情的本质，不过呢，保留着人类远古基因里留给我的冲动！爱情是什么，不知道，反正单身挺久了，单身，有时不一定是贵族，单身也许会比较自由，但自由也有一个同义词，叫作寂寞。所以才会出现教师节的时候很多人不向自己以前的老师发祝福，而是跑去苍老师的微博底下凑热闹，更重要的是有了五姑娘的这个大名鼎鼎的人物出现。好吧，不说这个。2016，还是单身，还记得过年回家的时候老妈那苦口婆心的样子，无奈当时我只能以我还年轻这个不是借口的借口开溜了！而国庆回家，和一波同学在家聊天的时候，老妈还是拿这个话题凑热闹，想起来还是挺搞笑的。不管怎样，今年过年回家不能说我忘了家里的再三嘱咐，爱情这东西，真不是你说想来就能来的，而且我也还没准备好！关于爱情，我还是借用张嘉佳《从你的全世界走过》那本书封面的一段话：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;我希望有个如你一般的人，如山间清爽的风，如古城温暖的光。从清晨到夜晚，由山野到书房。只要最后是你，就好。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/150304767.jpg&quot; alt=&quot;new一个吧&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;section-4&quot;&gt;关于2017&lt;/h4&gt;
-&lt;p&gt;2017年，一定要好好过。这么问题来了：怎么过呢？
-按照计划过，毕竟机会是留给有准备的人，2017我准备了这些计划：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;维护好自己的那个博客主题，继续好好的完善一些功能；每个月呢，至少发两篇博文。&lt;/li&gt;
-  &lt;li&gt;学习！学习！学习！重要的事情说三遍，把ES6、高程3、node深入浅出至少都要刷一遍。&lt;/li&gt;
-  &lt;li&gt;实践很重要，多做一些项目，然后上传到Github，让Github上commit图不像现在那么空白。&lt;/li&gt;
-  &lt;li&gt;微信小程序，再过一周（2017.01.09）微信小程序就上线了，2017希望对它不止只限于了解，计划跟公司申请个开发者账号来玩玩。&lt;/li&gt;
-  &lt;li&gt;多多运动，跑步继续坚持下去。继续报名深马，嗯还有厦马！&lt;/li&gt;
-  &lt;li&gt;旅行，多出去走走，还没试过一个人旅行，以前出去玩都是一拨人的。过年回去先把港澳台通行证办好，是时候来一场说走就走的旅行。&lt;/li&gt;
-  &lt;li&gt;找个女朋友？算了，有空我还是回家多陪陪家人吧！（活该单身）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2016，还有很多事，很多人我没能写进来，没办法文笔有限，当然还有一些不想写，就这样吧！
-2017，不管怎样，希望按照自己的想法好好走，做好自己就行了，因为在这世界上，不管你做得再怎么好，总会有那么50%的人，不会认同你的做法。所以博客里我没开通评论，不过后续会开起来的，欢迎吐槽，反正我就看看而已~
-&lt;img src=&quot;http://function.bypanda.cn/blog/20170102/151250896.png&quot; alt=&quot;2017，你准备好了么？&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;-END-&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 02 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/01/02/sunmery2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/02/sunmery2016/</guid>
-        
-        <category>生活</category>
-        
-        <category>个人总结</category>
         
         
       </item>
