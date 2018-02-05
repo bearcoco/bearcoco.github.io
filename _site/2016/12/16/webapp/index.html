@@ -223,15 +223,17 @@
 使用rem布局结合在html上根据不同分辨率设置不同font-size有很多不好解决的麻烦，网易是如何解决的呢？最根本的原因在于，网易页面上html的font-size不是预先通过媒介查询在css里定义好的，而是通过JS计算出来的，不过这得在你调整分辨率后，刷新页面才能看得到效果。
 它是根据什么计算的，这就跟设计稿有关了，那我自己来讲吧，我们UI给我的设计稿的横向分辨率为320px，为了计算方便，我取一个100px的font-size为参照，那么body元素的宽度就可以设置为width: 3.2rem，于是html的font-size=deviceWidth / 3.2。以下便是我的计算的代码：</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">deviceWidth</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientWidth</span><span class="p">;</span>
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">deviceWidth</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientWidth</span><span class="p">;</span>
 <span class="k">if</span><span class="p">(</span><span class="nx">deviceWidth</span> <span class="o">&gt;</span> <span class="mi">320</span><span class="p">)</span> <span class="nx">deviceWidth</span> <span class="o">=</span> <span class="mi">320</span><span class="p">;</span>
 <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">fontSize</span> <span class="o">=</span> <span class="nx">deviceWidth</span> <span class="o">/</span> <span class="mf">3.2</span> <span class="o">+</span> <span class="s1">'px'</span><span class="p">;</span>
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>不过这个的前提，视口要如下设置：</p>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"initial-scale=1,maximum-scale=1, minimum-scale=1"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"initial-scale=1,maximum-scale=1, minimum-scale=1"</span><span class="nt">&gt;</span>
 
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>OK，这两段代码就可以解决移动端自适应的问题了，当然还有不懂的话看下面的参考，里面写得很详细。</p>
 <h4 id="参考">参考</h4>
@@ -552,6 +554,10 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
                       Copyright &copy; ZGX Blog 2018
                       <br>
                       Theme by <a href="http://www.zgx.ac.cn">ZGX</a> | 坚持为贵
+
+                  </p>
+                  <p class="copyright text-muted">
+                      <a href="http://www.miitbeian.gov.cn/">粤ICP备16100151号</a>
 
                   </p>
               </div>

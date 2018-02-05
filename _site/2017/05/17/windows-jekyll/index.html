@@ -226,13 +226,15 @@
 <h3 id="安装evelopment">安装EVELOPMENT</h3>
 <p>安装完ruby后，接着安装DevKit(请确保管理员权限安装) 点击安装，选择完对应的目标（默认地址就行了）后，点击确认即会自动提取。
 在windows的命令行cd到安装的目录下，输入</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby dk.rb init
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>ruby dk.rb init
+</code></pre>
+</div>
 <p>待运行完毕后，该目录中会自动生成一个config.yml文件。将文件的内容修改成以下：
 <img src="http://function.bypanda.cn/ruby2.png" alt="config" />
 也就是在文件内容的后面加上：<strong>- C:\Ruby200-x64</strong> ，这个表示的是刚才安装ruby的路径地址。修改完之后，继续在控制台输入命令：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby dk.rb install
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>ruby dk.rb install
+</code></pre>
+</div>
 <p>至此，代表Development Kit已经正确安装并成功配置。</p>
 
 <h3 id="更改默认的source源">更改默认的source源</h3>
@@ -247,11 +249,13 @@
 
 <h3 id="安装jekyll">安装jekyll</h3>
 <p>安装jekyll前先按照依赖包bundler，输入命令：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install bundler
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>gem install bundler
+</code></pre>
+</div>
 <p>按照依赖包bundler之后，直接安装jekyll，输入命令：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>gem install jekyll
+</code></pre>
+</div>
 <p>安装需要一定的时间，过一段时间正常安装后即代表jekyll可以开始使用了。</p>
 
 <h3 id="使用jekyll">使用jekyll</h3>
@@ -260,17 +264,20 @@
 <p>首先，你可以到<a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a>上面找一个自己喜欢的jekyll模板，然后将对应的项目git clone到自己本地的目录下，同样用cmd命令进入对应的目录。</p>
 
 <p>输入以下命令生成博客，默认生成再_site目录下：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll build
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>jekyll build
+</code></pre>
+</div>
 <p>开启jekyll本地预览服务：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>jekyll serve
+</code></pre>
+</div>
 <p>在浏览器中输入 http://localhost:4000 即可访问博客站点。
 如果出现Error：jekyll-paginate
 <img src="http://function.bypanda.cn/jekyll.jpg" alt="error" />
 输入命令：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll-paginate
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>gem install jekyll-paginate
+</code></pre>
+</div>
 <p>再不能访问请检查_config.yml配置文件是否需要修改。</p>
 
 <p>部署到Github pages请移驾到<a href="http://www.zgx.ac.cn/2017/05/15/mac-jekyll/">在mac上安装Jekyll</a></p>
@@ -588,6 +595,10 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
                       Copyright &copy; ZGX Blog 2018
                       <br>
                       Theme by <a href="http://www.zgx.ac.cn">ZGX</a> | 坚持为贵
+
+                  </p>
+                  <p class="copyright text-muted">
+                      <a href="http://www.miitbeian.gov.cn/">粤ICP备16100151号</a>
 
                   </p>
               </div>
