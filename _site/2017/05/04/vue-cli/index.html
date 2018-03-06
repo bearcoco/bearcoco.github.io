@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://www.zgx.ac.cn/2017/05/04/vue-cli/">
+    <link rel="canonical" href="http://localhost:4000/2017/05/04/vue-cli/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -207,14 +207,12 @@
 <ul>
   <li>安装node（直接到中文官网<a href="http://nodejs.cn">http://nodejs.cn</a>下载安装包进行安装，步骤就不介绍了）</li>
   <li>安装淘宝镜像cnpm，mac电脑npm命令需要加sudo授权，输入命令：
-    <div class="highlighter-rouge"><pre class="highlight"><code>sudo npm install -g cnpm --registry=http://registry.npm.taobao.org
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo npm install -g cnpm --registry=http://registry.npm.taobao.org
+</code></pre></div>    </div>
   </li>
   <li>安装vue-cli，输入命令：
-    <div class="highlighter-rouge"><pre class="highlight"><code>sudo cnpm install -g vue-cli
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo cnpm install -g vue-cli
+</code></pre></div>    </div>
   </li>
 </ul>
 
@@ -222,9 +220,8 @@
 
 <p>通过以上步骤，我们需要准备的环境和工具都准备好了，接下来就开始使用vue-cli来构建项目。
 cd到需要创建项目的文件夹，输入命令：</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>vue init webpack fileName
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vue init webpack fileName
+</code></pre></div></div>
 <p>fileName是文件夹名称，webpack为模版，下面是cli自带的几个模板。
 <img src="http://function.bypanda.cn/1A1F8FF0-4DBC-4888-87A2-5BC2DA33D643.png" alt="cli模板" />
 运行初始化命令的时候回让用户输入几个基本的选项，如项目名称，描述，作者等信息，如果不想填直接回车默认就好。
@@ -232,15 +229,13 @@ ESlint规范和单元测试暂时用不上可以都选no；
 <img src="http://function.bypanda.cn/2D6750C5-793A-4154-8C23-C6D87B1AF1FC.png" alt="" />
 配置完成后，可以看到目录下多出了一个项目文件夹，里面就是 vue-cli 创建的一个基于 webpack 的 vue.js 项目
 然后进入项目目录（cd fileName），使用 cnpm 安装依赖，输入命令：</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>cnpm install
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cnpm install
+</code></pre></div></div>
 <p>安装完成之后，会在我们的项目目录fileName文件夹中多出一个node_modules文件夹，这里边就是我们项目需要的依赖包资源。
 <img src="http://function.bypanda.cn/C754316A-9896-46EB-B7FE-9E9188D02422.png" alt="依赖包资源" />
 安装完依赖包之后，就可以运行整个项目了,输入命令：</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>npm run dev
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run dev
+</code></pre></div></div>
 <p><strong>npm run dev</strong>，会用热加载的方式运行我们的应用，热加载可以让我们在修改完代码后不用手动刷新浏览器就能实时看到修改后的效果。
 简单介绍下<strong>npm run dev</strong>命令，其中的<strong>“run”</strong>对应的是package.json文件中，scripts字段中的dev，也就是 node build/dev-server.js命令的一个快捷方式。
 项目运行成功后，浏览器会自动打开localhost:8080（如果浏览器没有自动打开，可以手动输入）。运行成功后，会看到有vue图标显示的界面。
@@ -248,9 +243,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 <img src="http://function.bypanda.cn/EF62DEB2-9695-423D-AED2-B2006DAD6AD9.png" alt="" /></p>
 <h3 id="打包上线">打包上线：</h3>
 <p>自己的项目文件都需要放到 src 文件夹下。项目开发完成之后，可以输入 <strong>npm run build</strong> 来进行打包工作。</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>npm run build
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run build
+</code></pre></div></div>
 <p>打包完成后，会生成 dist 文件夹，如果已经修改了文件路径，可以直接打开本地文件查看。项目上线时，只需要将 dist 文件夹放到服务器就行了。</p>
 
 
@@ -552,7 +546,7 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
                     
                     
                     <li>
-                        <a target="_blank" href="https://github.com/zgxaccn">
+                        <a target="_blank" href="https://github.com/bearcoco">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -566,7 +560,7 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
                   <p class="copyright text-muted">
                       Copyright &copy; ZGX Blog 2018
                       <br>
-                      Theme by <a href="http://www.zgx.ac.cn">ZGX</a> | 坚持为贵
+                      Theme by <a href="http://www.bearcoco.com">ZGX</a> | 坚持为贵
 
                   </p>
                   <p class="copyright text-muted">

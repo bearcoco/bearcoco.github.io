@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: bypandacn@gmail.com
 description: "刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。"
 keyword: "张冠雄, ZGX, 张冠雄的博客, 个人博客, 互联网, 前端, 旅游"
-url: "http://www.zgx.ac.cn"              # your host, for absolute URL
+url: "http://www.bearcoco.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -20,7 +20,7 @@ weibo_username: bypanda
 #jianshu_username: erLDs1
 #linkedin_username: mayongtao
 #zhihu_username: lengli
-github_username: zgxaccn
+github_username: bearcoco
 twitter_username: bypanda
 facebook_username: bypanda
 #lofter_username: matengteng

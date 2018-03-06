@@ -3,11 +3,11 @@
   <channel>
     <title>ZGX Blog</title>
     <description>刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。</description>
-    <link>http://www.zgx.ac.cn/</link>
-    <atom:link href="http://www.zgx.ac.cn/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Feb 2018 17:30:20 +0800</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2018 17:30:20 +0800</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 06 Mar 2018 23:43:35 +0800</pubDate>
+    <lastBuildDate>Tue, 06 Mar 2018 23:43:35 +0800</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>2017年个人总结</title>
@@ -108,8 +108,8 @@
 
 </description>
         <pubDate>Wed, 03 Jan 2018 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2018/01/03/summary2017/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2018/01/03/summary2017/</guid>
+        <link>http://localhost:4000/2018/01/03/summary2017/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/03/summary2017/</guid>
         
         <category>生活</category>
         
@@ -178,8 +178,8 @@
 
 </description>
         <pubDate>Mon, 07 Aug 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/08/07/talk-vue-angular/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/08/07/talk-vue-angular/</guid>
+        <link>http://localhost:4000/2017/08/07/talk-vue-angular/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/07/talk-vue-angular/</guid>
         
         <category>vue.js</category>
         
@@ -342,8 +342,8 @@
 
 </description>
         <pubDate>Sun, 21 May 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/05/21/hongkong/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/21/hongkong/</guid>
+        <link>http://localhost:4000/2017/05/21/hongkong/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/21/hongkong/</guid>
         
         <category>生活</category>
         
@@ -376,15 +376,13 @@
 &lt;h3 id=&quot;安装evelopment&quot;&gt;安装EVELOPMENT&lt;/h3&gt;
 &lt;p&gt;安装完ruby后，接着安装DevKit(请确保管理员权限安装) 点击安装，选择完对应的目标（默认地址就行了）后，点击确认即会自动提取。
 在windows的命令行cd到安装的目录下，输入&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb init
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;待运行完毕后，该目录中会自动生成一个config.yml文件。将文件的内容修改成以下：
 &lt;img src=&quot;http://function.bypanda.cn/ruby2.png&quot; alt=&quot;config&quot; /&gt;
 也就是在文件内容的后面加上：&lt;strong&gt;- C:\Ruby200-x64&lt;/strong&gt; ，这个表示的是刚才安装ruby的路径地址。修改完之后，继续在控制台输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby dk.rb install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;至此，代表Development Kit已经正确安装并成功配置。&lt;/p&gt;
 
 &lt;h3 id=&quot;更改默认的source源&quot;&gt;更改默认的source源&lt;/h3&gt;
@@ -399,13 +397,11 @@
 
 &lt;h3 id=&quot;安装jekyll&quot;&gt;安装jekyll&lt;/h3&gt;
 &lt;p&gt;安装jekyll前先按照依赖包bundler，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;按照依赖包bundler之后，直接安装jekyll，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;安装需要一定的时间，过一段时间正常安装后即代表jekyll可以开始使用了。&lt;/p&gt;
 
 &lt;h3 id=&quot;使用jekyll&quot;&gt;使用jekyll&lt;/h3&gt;
@@ -414,27 +410,24 @@
 &lt;p&gt;首先，你可以到&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;上面找一个自己喜欢的jekyll模板，然后将对应的项目git clone到自己本地的目录下，同样用cmd命令进入对应的目录。&lt;/p&gt;
 
 &lt;p&gt;输入以下命令生成博客，默认生成再_site目录下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;开启jekyll本地预览服务：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;在浏览器中输入 http://localhost:4000 即可访问博客站点。
 如果出现Error：jekyll-paginate
 &lt;img src=&quot;http://function.bypanda.cn/jekyll.jpg&quot; alt=&quot;error&quot; /&gt;
 输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll-paginate
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll-paginate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;再不能访问请检查_config.yml配置文件是否需要修改。&lt;/p&gt;
 
 &lt;p&gt;部署到Github pages请移驾到&lt;a href=&quot;http://www.zgx.ac.cn/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 May 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/05/17/windows-jekyll/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/17/windows-jekyll/</guid>
+        <link>http://localhost:4000/2017/05/17/windows-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/17/windows-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -464,46 +457,38 @@
 &lt;p&gt;使用Mac的程序员必不可少的一步便是安装Homebrew, Homebrew是基于Ruby安装, Mac默认自带Ruby。
 运行以下命令进行安装：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;安装最新版ruby&quot;&gt;安装最新版ruby&lt;/h3&gt;
 
 &lt;p&gt;Mac上是有默认自带Ruby，我们要做的事将它更新为最新的版本。使用刚才安装好的Homebrew进行安装，输入命令行：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install ruby
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install ruby
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;安装完成之后，会提示安装好的ruby目录为&lt;strong&gt;/usr/local/Cellar/ruby/2.4.1&lt;/strong&gt;,想要最新安装的ruby生效，需要将&lt;strong&gt;~/.zshrc&lt;/strong&gt;配置文件中的环境变量PATH中添加上新版本ruby的目录，在PATH后添加上ruby安装目录的bin文件夹，如下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=&quot;/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/ruby/2.4.1/bin&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=&quot;/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/ruby/2.4.1/bin&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;然后输入命令：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;输入命令&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;查看ruby版本，显示的将是最新的版本&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin15]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin15]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;如果，版本不对，就使用命令&lt;strong&gt;echo $PATH&lt;/strong&gt;查看最新版本的ruby目录是否在环境变量PATH中，如果不对，就按照上述过程修改环境变量PATH&lt;/p&gt;
 
 &lt;h3 id=&quot;安装jekyll&quot;&gt;安装jekyll&lt;/h3&gt;
 &lt;p&gt;输入命令行：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;因为我们将会使用Markdown语言作为标记语言，所以还需要安装kramdown，命令如下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install kramdown
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install kramdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;至此，jekyll已经安装成功了，可以在本地上运行环境了。&lt;/p&gt;
 
 &lt;h3 id=&quot;使用jekyll&quot;&gt;使用jekyll&lt;/h3&gt;
@@ -511,20 +496,17 @@
 &lt;p&gt;首先，你可以到&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;上面找一个自己喜欢的jekyll模板，然后将对应的项目git clone到自己本地的目录下，同样用cmd命令进入对应的目录。&lt;/p&gt;
 
 &lt;p&gt;输入以下命令生成博客，默认生成再_site目录下：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;开启jekyll本地预览服务：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;在浏览器中输入 http://localhost:4000 即可访问博客站点
 不能访问请检查_config.yml配置文件是否需要修改&lt;/p&gt;
 
 &lt;p&gt;在本地上可以预览博客站点后就可以使用Jekyll写博文，进入博客目录的_post文件夹，撰写的markdown语法的博文都放在这里。如何撰写可以参考&lt;a href=&quot;http://jekyllcn.com/docs/posts/&quot;&gt;jekyll中文网&lt;/a&gt;,这里就不写了。写完之后刷新一下浏览器、发现页面并没有变化.因为我们还没有通过Jekyll build去生成。&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;然后再输入命令&lt;strong&gt;jekyll serve&lt;/strong&gt;进行本地预览。&lt;/p&gt;
 
 &lt;p&gt;jekyll目录结构&lt;/p&gt;
@@ -540,21 +522,19 @@
 
 &lt;p&gt;部署到Github Page，首先肯定要有github账号，没有的话自己去注册一个。然后创建一个跟你账户名一样的仓库，如我的github账户名叫zgxpro， github仓库名就叫 zgxpro.github.io，创建好了之后，把刚才建立的 myBlog 项目 push 到username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入username.github.io ，就可以访问你的博客了。 　
 本地Jekyll站点部署到Github Pages的命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all               #添加到暂存区    
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add --all               #添加到暂存区    
 git commit -m &quot;提交jekyll默认页面&quot; #提交到本地仓库
 git push origin master           #线上的站点是部署在master下面的
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;稍等个几分钟左右，Github Pages有一定时间缓存,我们刷新username.github.io看看,已经ok了！&lt;/p&gt;
 
 &lt;h3 id=&quot;绑定个人域名&quot;&gt;绑定个人域名&lt;/h3&gt;
 &lt;p&gt;一般情况下，别人想访问的是咱们自己的个人网站，而不是去访问username.github.io。所以就要为username.github.io绑定个人域名。
 我们要绑定的话需要在username.github.com目录下增加一个CNAME文件。
 在里面添加你的域名，假设为example.com，然后推送CNAME文件到远程仓库:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add CNAME
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add CNAME
 git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;到域名服务商增加你的CNAME记录。
 添加两条记录，@和www的主机记录，记录类型为CNAME类型，CNAME表示别名记录，该记录可以将多个名字映射到同一台计算机。
 记录值请写username.github.io.,值得注意的是io后面还有一个圆点，切记。
@@ -566,8 +546,8 @@ git push origin master
 
 </description>
         <pubDate>Mon, 15 May 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/05/15/mac-jekyll/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/15/mac-jekyll/</guid>
+        <link>http://localhost:4000/2017/05/15/mac-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/15/mac-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -585,14 +565,12 @@ git push origin master
 &lt;ul&gt;
   &lt;li&gt;安装node（直接到中文官网&lt;a href=&quot;http://nodejs.cn&quot;&gt;http://nodejs.cn&lt;/a&gt;下载安装包进行安装，步骤就不介绍了）&lt;/li&gt;
   &lt;li&gt;安装淘宝镜像cnpm，mac电脑npm命令需要加sudo授权，输入命令：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo npm install -g cnpm --registry=http://registry.npm.taobao.org
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo npm install -g cnpm --registry=http://registry.npm.taobao.org
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;安装vue-cli，输入命令：
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cnpm install -g vue-cli
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cnpm install -g vue-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -600,9 +578,8 @@ git push origin master
 
 &lt;p&gt;通过以上步骤，我们需要准备的环境和工具都准备好了，接下来就开始使用vue-cli来构建项目。
 cd到需要创建项目的文件夹，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vue init webpack fileName
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vue init webpack fileName
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;fileName是文件夹名称，webpack为模版，下面是cli自带的几个模板。
 &lt;img src=&quot;http://function.bypanda.cn/1A1F8FF0-4DBC-4888-87A2-5BC2DA33D643.png&quot; alt=&quot;cli模板&quot; /&gt;
 运行初始化命令的时候回让用户输入几个基本的选项，如项目名称，描述，作者等信息，如果不想填直接回车默认就好。
@@ -610,15 +587,13 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;img src=&quot;http://function.bypanda.cn/2D6750C5-793A-4154-8C23-C6D87B1AF1FC.png&quot; alt=&quot;&quot; /&gt;
 配置完成后，可以看到目录下多出了一个项目文件夹，里面就是 vue-cli 创建的一个基于 webpack 的 vue.js 项目
 然后进入项目目录（cd fileName），使用 cnpm 安装依赖，输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cnpm install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cnpm install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;安装完成之后，会在我们的项目目录fileName文件夹中多出一个node_modules文件夹，这里边就是我们项目需要的依赖包资源。
 &lt;img src=&quot;http://function.bypanda.cn/C754316A-9896-46EB-B7FE-9E9188D02422.png&quot; alt=&quot;依赖包资源&quot; /&gt;
 安装完依赖包之后，就可以运行整个项目了,输入命令：&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run dev
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;npm run dev&lt;/strong&gt;，会用热加载的方式运行我们的应用，热加载可以让我们在修改完代码后不用手动刷新浏览器就能实时看到修改后的效果。
 简单介绍下&lt;strong&gt;npm run dev&lt;/strong&gt;命令，其中的&lt;strong&gt;“run”&lt;/strong&gt;对应的是package.json文件中，scripts字段中的dev，也就是 node build/dev-server.js命令的一个快捷方式。
 项目运行成功后，浏览器会自动打开localhost:8080（如果浏览器没有自动打开，可以手动输入）。运行成功后，会看到有vue图标显示的界面。
@@ -626,15 +601,14 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;img src=&quot;http://function.bypanda.cn/EF62DEB2-9695-423D-AED2-B2006DAD6AD9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;打包上线&quot;&gt;打包上线：&lt;/h3&gt;
 &lt;p&gt;自己的项目文件都需要放到 src 文件夹下。项目开发完成之后，可以输入 &lt;strong&gt;npm run build&lt;/strong&gt; 来进行打包工作。&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;打包完成后，会生成 dist 文件夹，如果已经修改了文件路径，可以直接打开本地文件查看。项目上线时，只需要将 dist 文件夹放到服务器就行了。&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 04 May 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/05/04/vue-cli/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/05/04/vue-cli/</guid>
+        <link>http://localhost:4000/2017/05/04/vue-cli/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/04/vue-cli/</guid>
         
         <category>前端开发</category>
         
@@ -706,8 +680,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;p&gt;本文转载自&lt;a href=&quot;http://weibo.com/huxpro&quot;&gt;黄玄&lt;/a&gt;&lt;a href=&quot;http://huangxuan.me&quot;&gt;Hux Blog&lt;/a&gt;。&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Apr 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/04/22/version/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/04/22/version/</guid>
+        <link>http://localhost:4000/2017/04/22/version/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/22/version/</guid>
         
         <category>前端开发</category>
         
@@ -734,8 +708,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 </description>
         <pubDate>Mon, 06 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/03/06/jiami/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/03/06/jiami/</guid>
+        <link>http://localhost:4000/2017/03/06/jiami/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/06/jiami/</guid>
         
         <category>前端开发</category>
         
@@ -804,8 +778,8 @@ b. 最后输入cordova platform add android #添加 Android 平台
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170307/003550831.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/02/11/app/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/02/11/app/</guid>
+        <link>http://localhost:4000/2017/02/11/app/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/11/app/</guid>
         
         <category>前端开发</category>
         
@@ -830,13 +804,12 @@ b. 最后输入cordova platform add android #添加 Android 平台
 &lt;h4 id=&quot;ok上代码&quot;&gt;OK，上代码&lt;/h4&gt;
 &lt;p&gt;就以上面图片为例，将700*300的图片传上长宽300的div中，实现居中裁剪。
 先看下html中的代码：&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;imgWrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;imgWrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
         &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;imgBox&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;图片地址&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;首先在CSS中定义好图片大小：&lt;/p&gt;
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.imgWrap&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.imgWrap&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -849,12 +822,11 @@ b. 最后输入cordova platform add android #添加 Android 平台
     &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;开始上脚本，在加载页面时遍历所有图片（我们例子中只有一张，显然工作中用的很多的图片，所以直接遍历），先判断其是否在缓存中，在缓存中则直接进行处理，不在缓存中则通过onload触发处理；（因为在定义onload事件之前缓存的图片就已经load好，导致onload事件不被触发；而不在缓存的图片，若直接处理，图片未load出来，原始尺寸会被Image对象认为是空图，width和height都是0）&lt;/p&gt;
 
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;oImg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgBox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'img'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//获取图片&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;liWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgBox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//获取img外面一层div的宽度&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;liHei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgBox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//获取img外面一层div的高度&lt;/span&gt;
@@ -873,11 +845,10 @@ b. 最后输入cordova platform add android #添加 Android 平台
 
         &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;将图片遍历出来后，开始定义图片进行处理，这里封装了一个函数：&lt;/p&gt;
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Imgcallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liHei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Imgcallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;liHei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ImgWidth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
             &lt;span class=&quot;nx&quot;&gt;ImgHei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newimg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -897,22 +868,20 @@ b. 最后输入cordova platform add android #添加 Android 平台
         &lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'margin-top'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
         &lt;span class=&quot;nx&quot;&gt;Img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'margin-left'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;这里主要的是判断两种情况，一种是宽大于高，就是例子中上传的这种图片，另外一种显然是宽小于高；从代码中可以看出，保持比例的前提下填充满位置，通过margin进行居中显示，再装进裁剪容器。
 OK，现在只差最后一步了，我们已经将图片居中裁剪的封装成函数了，哪里需要只要调用它就行了。如上面那例子要使用的话。调用它：&lt;/p&gt;
 
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgWrap'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nx&quot;&gt;imgWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.imgWrap'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;图片实现居中裁剪了，不再被压缩或拉伸。
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170108/204045593.png&quot; alt=&quot;300*300&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://www.zgx.ac.cn/2017/01/09/imgBox/</link>
-        <guid isPermaLink="true">http://www.zgx.ac.cn/2017/01/09/imgBox/</guid>
+        <link>http://localhost:4000/2017/01/09/imgBox/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/09/imgBox/</guid>
         
         <category>前端开发</category>
         
