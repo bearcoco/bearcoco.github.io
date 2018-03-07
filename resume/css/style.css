@@ -31,7 +31,7 @@ a:focus {
 }
 /*-- header_top --*/
 .sidebar{
-  background:#6ecadc;
+  background:#313538;
   top: 0px;
   padding:2em 30px;
 }
@@ -58,12 +58,12 @@ a:focus {
 }  
 
 .details p{
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 	margin:5px 0 2em 0;
 }
 .details p a{
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 }
 address h3{
@@ -71,7 +71,7 @@ address h3{
 }
 address span{
 	display:block;
-	color:#101010;
+	color:#fff;
 	font-size:0.9em;
 	line-height:1.5em;
 }
@@ -88,7 +88,7 @@ address span{
 .glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
     margin-right: 9px;
   font-size: 14px;
-  color: #6ecadc;
+  color: #333;
 }
 .details_header{
 	padding: 0em 1em 0 2em;
@@ -101,7 +101,7 @@ address span{
 	color:#333;
 }
 .details_header ul li a:hover{
-	color:#6ecadc;
+	color:#007ACC;
 }
 .company {
 	margin:2em 0;
@@ -157,7 +157,7 @@ address span{
 }
 .skill1,.skill2{
 	 float:left;
-	 width:30%;
+	 width:80%;
 }
 .skill1 h4,.skill2 h4{
 	color:#333;
@@ -169,7 +169,7 @@ address span{
 	padding-left:4em;
 }
 .skill1 ul li,.skill2 ul li{
-	color:#333;
+	color:#999;
 }
 .education  h3{
   background: #999;
@@ -178,16 +178,16 @@ address span{
   display: inline-block;
 }
 h3.clr1{
-	background:#6ecadc;
+	background:#666;
 }
 h3.clr01{
-	background:#963
+	background:#666
 }
 h3.clr2{
-	background:#e9a820;
+	background:#666;
 }
 h3.clr3{
-	background:#3eb991;
+	background:#666;
 }
 .copywrite{
 	padding-left:2em;
