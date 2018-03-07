@@ -3,10 +3,10 @@
   <channel>
     <title>ZGX Blog</title>
     <description>刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Mar 2018 11:41:02 +0800</pubDate>
-    <lastBuildDate>Wed, 07 Mar 2018 11:41:02 +0800</lastBuildDate>
+    <link>http://www.bearcoco.com/</link>
+    <atom:link href="http://www.bearcoco.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 07 Mar 2018 12:18:06 +0800</pubDate>
+    <lastBuildDate>Wed, 07 Mar 2018 12:18:06 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -108,8 +108,8 @@
 
 </description>
         <pubDate>Wed, 03 Jan 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/01/03/summary2017/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/03/summary2017/</guid>
+        <link>http://www.bearcoco.com/2018/01/03/summary2017/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2018/01/03/summary2017/</guid>
         
         <category>生活</category>
         
@@ -178,8 +178,8 @@
 
 </description>
         <pubDate>Mon, 07 Aug 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/08/07/talk-vue-angular/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/07/talk-vue-angular/</guid>
+        <link>http://www.bearcoco.com/2017/08/07/talk-vue-angular/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/08/07/talk-vue-angular/</guid>
         
         <category>vue.js</category>
         
@@ -342,8 +342,8 @@
 
 </description>
         <pubDate>Sun, 21 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/21/hongkong/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/21/hongkong/</guid>
+        <link>http://www.bearcoco.com/2017/05/21/hongkong/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/05/21/hongkong/</guid>
         
         <category>生活</category>
         
@@ -426,8 +426,8 @@
 &lt;p&gt;部署到Github pages请移驾到&lt;a href=&quot;http://www.bearcoco.com/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/17/windows-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/17/windows-jekyll/</guid>
+        <link>http://www.bearcoco.com/2017/05/17/windows-jekyll/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/05/17/windows-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -546,8 +546,8 @@ git push origin master
 
 </description>
         <pubDate>Mon, 15 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/15/mac-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/15/mac-jekyll/</guid>
+        <link>http://www.bearcoco.com/2017/05/15/mac-jekyll/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/05/15/mac-jekyll/</guid>
         
         <category>前端开发</category>
         
@@ -607,8 +607,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 </description>
         <pubDate>Thu, 04 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/05/04/vue-cli/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/04/vue-cli/</guid>
+        <link>http://www.bearcoco.com/2017/05/04/vue-cli/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/05/04/vue-cli/</guid>
         
         <category>前端开发</category>
         
@@ -680,8 +680,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 &lt;p&gt;本文转载自&lt;a href=&quot;http://weibo.com/huxpro&quot;&gt;黄玄&lt;/a&gt;&lt;a href=&quot;http://huangxuan.me&quot;&gt;Hux Blog&lt;/a&gt;。&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Apr 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/04/22/version/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/22/version/</guid>
+        <link>http://www.bearcoco.com/2017/04/22/version/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/04/22/version/</guid>
         
         <category>前端开发</category>
         
@@ -708,8 +708,8 @@ ESlint规范和单元测试暂时用不上可以都选no；
 
 </description>
         <pubDate>Mon, 06 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/03/06/jiami/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/06/jiami/</guid>
+        <link>http://www.bearcoco.com/2017/03/06/jiami/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/03/06/jiami/</guid>
         
         <category>前端开发</category>
         
@@ -778,8 +778,8 @@ b. 最后输入cordova platform add android #添加 Android 平台
 &lt;img src=&quot;http://function.bypanda.cn/blog/20170307/003550831.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/02/11/app/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/11/app/</guid>
+        <link>http://www.bearcoco.com/2017/02/11/app/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/02/11/app/</guid>
         
         <category>前端开发</category>
         
@@ -880,8 +880,8 @@ OK，现在只差最后一步了，我们已经将图片居中裁剪的封装成
 
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/01/09/imgBox/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/09/imgBox/</guid>
+        <link>http://www.bearcoco.com/2017/01/09/imgBox/</link>
+        <guid isPermaLink="true">http://www.bearcoco.com/2017/01/09/imgBox/</guid>
         
         <category>前端开发</category>
         
