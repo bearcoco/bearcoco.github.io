@@ -10,7 +10,7 @@
     <meta name="keywords"  content="张冠雄, ZGX, 张冠雄的博客, 个人博客, 互联网, 前端, 旅游">
     <meta name="theme-color" content="#000000">
     
-    <title>2017年个人总结 - 张冠雄的博客 | ZGX Blog</title>
+    <title>jQuery基本知识 - 张冠雄的博客 | ZGX Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://www.bearcoco.com/2018/01/03/summary2017/">
+    <link rel="canonical" href="http://www.bearcoco.com/2016/10/06/jquery-basic/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -155,13 +155,13 @@
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/summary2017.jpg" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-js-version.jpg" width="0" height="0"> -->
 
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('/img/summary2017.jpg')
+        background-image: url('/img/post-bg-js-version.jpg')
     }
 
     
@@ -174,17 +174,15 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#生活" title="生活">生活</a>
-                        
-                        <a class="tag" href="/tags/#个人总结" title="个人总结">个人总结</a>
+                        <a class="tag" href="/tags/#jQuery" title="jQuery">jQuery</a>
                         
                     </div>
-                    <h1>2017年个人总结</h1>
+                    <h1>jQuery基本知识</h1>
                     
                     
-                    <h2 class="subheading">我的2017</h2>
+                    <h2 class="subheading"></h2>
                     
-                    <span class="meta">Posted by zgx on January 3, 2018</span>
+                    <span class="meta">Posted by zgx on October 6, 2016</span>
                 </div>
             </div>
         </div>
@@ -202,101 +200,209 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<p>前几天，在朋友圈、知乎看到了好多的年终总结。元旦旅游回来赫然在今天的to do list写上年终总结。当然，我并不是跟风，从大一开始我每年都有写年终总结，不同的是在那个博客时代我只是把文字写在了QQ空间，而在这个自媒体时代我选择了个人博客。回顾自己一年的得失与成长，看到过去一年的点点滴滴也是一种享受。当然，在外人看来或许会说矫情，或许会感到虚无缥缈，不过在我看来确是实实在在的。</p>
+				<h2 id="jquery的入口函数">jQuery的入口函数</h2>
 
-<p>在我的<a href="http://www.bearcoco.com/2017/01/02/sunmery2016/">2016个人总结</a>里，给自己定了几个计划。很遗憾Github上commit图还是依旧空白，专业书还在积灰。幸运的是不断维护着自己的博客，坚持着跑步，参加了全马，也出门旅行。</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">方式一：</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="c1">// 功能代码</span>
+<span class="p">});</span>
+<span class="err">方式二：</span>
+<span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="c1">// 功能代码</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<h2 id="jquery入口函数与js入口函数的区别">jQuery入口函数与js入口函数的区别</h2>
 
-<h2 id="1">1</h2>
-
-<p>这一年的伊始，收到的自然是老妈的嘱托：过年带个姑娘回来，孝顺的我自然不敢辜负老妈的嘱托。所以这一年我在网易云音乐听到最多的歌词就是“姑娘”，1653次。
-<img src="http://function.bypanda.cn/20180103151497785815920.jpg" alt="网易云听到最多的歌词" />
-然后没有了然后了…</p>
-
-<h2 id="2">2</h2>
-
-<p>这一年发现跟朋友之间的联系越来越少了，前几天朋友圈被“18岁的照片”疯狂刷屏，原因大家也都知道。貌似我们已不再年轻，也不能再任性，时间的残酷让人无法想象，不仅改变着我们，也改变着朋友之间的关系，那几天我翻开了QQ空间的相册，18岁的回忆充满着美好，不过却发现好多原先挺要好的朋友已经好几年没联系过了，走了不同的轨迹，少了联系，时间都在悄悄的改变着我们。或许，哪天见面还能喝几杯。<br />
-嗯，18岁时的我！
-<img src="http://function.bypanda.cn/20180103151498562457543.png" alt="网易云听到最多的歌词" />
-2017，庆幸的是几个大学室友和同学来到了深圳，工作之余，还可以约出来聚聚。
-<img src="http://function.bypanda.cn/20180103151499270476247.png" alt="大学室友" />
-<img src="http://function.bypanda.cn/20180103151499250487331.png" alt="大学同学" /></p>
-
-<p>2018，珍惜好现有还在联系中的好朋友。</p>
-
-<h2 id="3">3</h2>
-
-<p>这一年的工作，在技术上也成长了不少，学习了Vue.js，使用它搭建了项目，上线了一个公司的网站。2017，前端的技术发展太快，除非基础很好，不然要是说自己不会个mvvm框架，确实工作好像就没那么好找了。技术的迭起更需要自己的自学，2017，貌似在这方面上自己的计划没赶上变化。2018，打算着重从CSS学起。
-<img src="http://function.bypanda.cn/20180103151499435159907.png" alt="工作" />
-2017，对于工作，还是和16年一样，没啥成就感，完成了公司的任务，做一些自己感兴趣的小项目。很开心和公司的大佬们一起工作，不过希望需求不要太多，时间不要太紧。
-<img src="http://function.bypanda.cn/20180103151499477816289.png" alt="nmb" />
-工作中我一般都是不骂人的。</p>
-
-<h2 id="4">4</h2>
-
-<p>这一年应该是我跑步次数最多、公里数最长的一年。从去年开始断断续续跑，到今年的开始坚持，只能说痛并快乐着，跑步会让人上瘾。当然有人会问，为什么你会这么热衷于跑步？跑步给你带来哪些好处？引用知乎上的一个回答：</p>
-<blockquote>
-  <p>有些回报是有名额限制的，无论有多少人很努力，
-只有少数几个最努力的才有回报。
-比如，创业，升学，打比赛。
-但是有些回报是没有名额限制的
-比如，健身，这世界上可以允许有无数的肌肉男女。
-如果你的成功定义是超越别人，那么注定会失败，
-因为世上总有比你强的人。
-如果成功的定义是超越自己，那么真的只要努力就会成功。</p>
-</blockquote>
-
-<p>2017，报了上海、厦门、东莞、深圳的马拉松。很遗憾也很幸运中了一个深马，当然，这要感谢一起报名的其他四个朋友，团体赛的报名中签率就是比较高。全马的过程不做多描述，比平常和朋友在深圳湾一起跑放松多了，有气氛，两边的加油声促使你不断前行。关于跑步，有太多的鸡汤，跑步对我们身心有着种种好处！所以，2018我想我应该会参加继续报名马拉松，继续跑步，尽管跑步本身，从来就不是一项充满乐趣的运动。
-<img src="http://function.bypanda.cn/2018010315149798689277.png" alt="马拉松" />
-<img src="http://function.bypanda.cn/2018010315149799747850.png" alt="马拉松奖牌" /></p>
-
-<h2 id="5">5</h2>
-
-<p>这一年，喜欢上了两部电影，一部是《寻梦环游记》，一部是《芳华》。<br />
-《寻梦环游记》让我记得一个最不会受非议的价值观——家人最重要。
-<img src="http://function.bypanda.cn/20180103151498015547746.png" alt="寻梦环游记" />
-《芳华》让我觉得每个时代的美与丑，都可以映射到今天。
-<img src="http://function.bypanda.cn/20180103151498035945991.png" alt="芳华" />
- 每一年总有一部电影让自己怀念，2018应该为自己喜欢的电影写写影评，毕竟电影最容易给我们带来慰藉和快乐。看看电影，看看他们的故事，也许故事里也有你。<br />
- 这一年，也开始喜欢上乐器，买了一把二手吉他，也从朋友那里借了一把更好的吉他。两把吉他，坚持了一个多月，弹了首兰花草和灰姑娘，就没有了然后了，从同事那借了把尤克里里现在还在积灰。坚持从来就是一件很简单的事，立个flag写下后面吧。
-<img src="http://function.bypanda.cn/20180104151499561820289.png" alt="吉他" />
-貌似也买了许多书，可惜时间都贡献给了手机，2017，看的最多应该是知乎吧。
-<img src="http://function.bypanda.cn/20180104151499616170319.jpg" alt="知乎" /></p>
-
-<h2 id="6">6</h2>
-<p>这一年，最远的一次旅行就是去菲律宾潜水，作为一个旱鸭子很幸运的能在一望无际的海里进行一次深潜体验。2018年就立个 flag，学会游泳，考本OW。
-<img src="http://function.bypanda.cn/20180103151498089185505.jpg" alt="潜水" />
-<img src="http://function.bypanda.cn/20180103151498077138255.png" alt="海滩" />
-当然还有几次的短途旅行，去了几次香港、和同事去清远漂流、公司出游、带深圳的朋友去厦门漳州游玩。文笔有限，图片来凑吧。
-<img src="http://function.bypanda.cn/20180103151498441121291.png" alt="香港1" />
-<img src="http://function.bypanda.cn/20180103151498424992027.png" alt="香港2" />
-<img src="http://function.bypanda.cn/20180103151498413050690.png" alt="香港3" />
-<!-- ![香港4](http://function.bypanda.cn/20180103151498461158568.png) --></p>
-
-<p><img src="http://function.bypanda.cn/20180103151498622832735.png" alt="厦门1" />
-<img src="http://function.bypanda.cn/2018010315149863163839.png" alt="厦门2" />
-<img src="http://function.bypanda.cn/20180103151498646752575.png" alt="漳州1" />
-<img src="http://function.bypanda.cn/20180103151499306928554.png" alt="清远" />
-<img src="http://function.bypanda.cn/20180103151499336482489.png" alt="较场尾" />
-<img src="http://function.bypanda.cn/20180103151498688663347.png" alt="公司合照" /></p>
-<h2 id="7">7</h2>
-
-<p><em>2018 Todo List</em></p>
+<p>js入口函数指的是：window.onload = function() {}; 
+区别：</p>
 <ul>
-  <li>学好css</li>
-  <li>攒点钱</li>
-  <li>学一些node的东西</li>
-  <li>继续跑步、参加马拉松</li>
-  <li>学会尤克里里和吉他</li>
-  <li>学好英语、去旅行，考本OW。</li>
+  <li>1、书写个数不同<br />
+Js入口函数只能出现一次，出现多次会存在事件覆盖的问题。<br />
+jQuery的入口函数，可以出现任意多次，并不会存在事件覆盖问题。<br /></li>
+  <li>2、执行时机不同<br />
+Js入口函数是在所有的文件资源加载完成后，才执行。<br />
+这些文件资源包括：页面文档、外部的js文件、外部的css文件、图片等。<br />
+jQuery的入口函数，是在文档加载完成后，就执行。文档加载完成指的是：DOM树加载完成后，就可以操作DOM了，
+不用等到所有的外部资源都加载完成。</li>
+  <li>文档加载的顺序：从上往下，边解析边执行。</li>
 </ul>
 
-<h2 id="end">END</h2>
+<h2 id="jquery的符号">jQuery的$符号</h2>
 
-<p>今天的朋友圈被支付宝账单和年度关键字给刷屏了，当然这要归功与支付宝的走心文案。<br />
-我的走心文案是快乐，2017确实是有很多不快乐，当然这些不会出现在文字中。希望2018真的快乐。
-<img src="http://function.bypanda.cn/20180103151499346057267.jpg" alt="快乐" />
-2018，快乐就好。</p>
+<ul>
+  <li>jQuery里面的$符号实际上是一个函数
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// jQuery里面使用$的方式</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="p">});</span> <span class="c1">// 调用入口函数</span>
+<span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="p">});</span>                 <span class="c1">// 调用入口函数</span>
+<span class="nx">$</span><span class="p">(</span><span class="s2">"#btnShow"</span><span class="p">)</span>                     <span class="c1">// 获取id属性为btnShow的元素</span>
+<span class="nx">$</span><span class="p">(</span><span class="s2">"div"</span><span class="p">)</span>                          <span class="c1">// 获取所有的div元素</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
 
+<p>jQuery里面的$函数，根据传入参数的不同，进行不同的调用，实现不同的功能。返回的是jQuery对象。<br />
+jQuery这个js库，除了$之外，还提供了另外一个函数：jQuery<br />
+jQuery函数跟$函数的关系：jQuery === $   =&gt; true<br /></p>
+
+<h2 id="jquery对象和dom对象的相互转换">jQuery对象和DOM对象的相互转换</h2>
+<ul>
+  <li>DOM对象
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">btn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"btnShow"</span><span class="p">);</span> <span class="c1">// btn就是一个DOM对象</span>
+</code></pre></div>    </div>
+  </li>
+  <li>jQuery对象
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">$btn</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">"#btnShow"</span><span class="p">);</span> <span class="c1">// $btn就是一个jQuery对象</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Query对象是包装的DOM对象的集合，即：包装集</li>
+  <li>DOM对象转换成jQuery对象：
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">$btn</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">btn</span><span class="p">);</span> <span class="c1">// 此时就把DOM对象btn转换成了jQuery对象$btn</span>
+</code></pre></div>    </div>
+  </li>
+  <li>jQuery对象转换成DOM对象：
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 方式一</span>
+<span class="kd">var</span> <span class="nx">btn1</span> <span class="o">=</span> <span class="nx">$btn</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="c1">// 此时就把jQuery对象$btn转换成了DOM对象btn1 （推荐使用此方式）</span>
+<span class="c1">// 方式二</span>
+<span class="kd">var</span> <span class="nx">btn2</span> <span class="o">=</span> <span class="nx">$btn</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="c1">// 此时就把jQuery对象$btn转换成了DOM对象btn2</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="jquery选择器">jQuery选择器</h2>
+<p>常用的选择器汇总</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*               $("*")              所有元素
+#id             $("#lastname")      id="lastname" 的元素
+.class          $(".intro")         所有 class="intro" 的元素
+element         $("p")              所有 &lt;p&gt; 元素
+.class.class    $(".intro.demo")    所有 class 具有 "intro" 且 "demo" 的元素
+s1,s2,s3        $("th,td,.intro")   所有带有匹配选择的元素
+:even           $("tr:even")        所有偶数 &lt;tr&gt; 元素
+:odd            $("tr:odd")         所有奇数 &lt;tr&gt; 元素
+:first          $("p:first")        第一个 &lt;p&gt; 元素
+:last           $("p:last")         最后一个 &lt;p&gt; 元素
+:eq(index)      $("ul li:eq(3)")    列表中的第四个元素（index 从 0 开始）
+:gt(index)      $("ul li:gt(3)")    列出 index 大于 3 的元素 greater than
+:lt(index)      $("ul li:lt(3)")    列出 index 小于 3 的元素 less than
+:not(selector)  $("input:not(:empty)")  所有不为空的 input 元素
+
+:header         $(":header")        所有标题元素 &lt;h1&gt; - &lt;h6&gt;
+:animated       $(":animated")      所有正在执行动画的元素
+:contains(text)     $(":contains('W3School')")  包含指定字符串的所有元素
+:empty              $(":empty")                 无子（元素）节点的所有元素
+:hidden             $("p:hidden")               所有隐藏的 &lt;p&gt; 元素
+:visible            $("table:visible")          所有可见的表格
+[attribute]         $("[href]")         所有带有 href 属性的元素
+[attribute=value]   $("[href='#']")     所有 href 属性的值等于 "#" 的元素
+[attribute!=value]  $("[href!='#']")    所有 href 属性的值不等于 "#" 的元素
+[attribute$=value]  $("[href$='.jpg']") 所有 href 属性的值包含以 ".jpg" 结尾的元素
+:input              $(":input")         所有 &lt;input&gt; 元素
+:text               $(":text")          所有 type="text" 的 &lt;input&gt; 元素
+:password           $(":password")      所有 type="password" 的 &lt;input&gt; 元素
+:radio              $(":radio")         所有 type="radio" 的 &lt;input&gt; 元素
+:checkbox           $(":checkbox")      所有 type="checkbox" 的 &lt;input&gt; 元素
+:submit             $(":submit")        所有 type="submit" 的 &lt;input&gt; 元素
+:reset              $(":reset")         所有 type="reset" 的 &lt;input&gt; 元素
+:button             $(":button")        所有 按钮元素（&lt;button&gt;&lt;/button&gt; 或者 input="button"）
+:image              $(":image")         所有 type="image" 的 &lt;input&gt; 元素
+:file               $(":file")          所有 type="file" 的 &lt;input&gt; 元素
+:enabled            $(":enabled")       所有激活的 input 元素
+:disabled           $(":disabled")      所有禁用的 input 元素
+:selected           $(":selected")      所有被选取的 input 元素
+:checked            $(":checked")       所有被选中的 input 元素
+</code></pre></div></div>
+
+<h2 id="jquery选择方法">jQuery选择方法</h2>
+<ul>
+  <li>获取父级元素
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$(selector).parent();     //获取直接父级
+$(selector).parents('p'); //获取所有父级元素直到html   
+</code></pre></div>    </div>
+  </li>
+  <li>获取子代和后代的元素
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$(selector).children();   //获取直接子元素
+$(selector).find("span"); //获取所有的后代元素  find方法 可能用的多。
+</code></pre></div>    </div>
+  </li>
+  <li>获取同级的元素
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$(selector).siblings()    //所有的兄弟节点
+$(selector).next()        //下一个兄弟节点
+$(selector).nextAll()     //后面的所有节点
+$(selector).prev()        //前面一个的兄弟节点
+$(selector).prevAll()     //前面的所有的兄弟节点
+</code></pre></div>    </div>
+  </li>
+  <li>过滤方法
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$("p").eq(1);           //取第n个元素
+$("div p").last();        //取最后一个元素
+$("div p").first();       //取第一个元素
+$("p").filter(".intro");  //过滤，选择所有p标签带有 .intro类
+$("p").not(".intro");     //去除，跟上面的filetr正好相反
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="jquery常用dom操作">jQuery常用DOM操作</h2>
+
+<p><strong>基本样式属性操作</strong></p>
+<ul>
+  <li>设置样式属性操作
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>设置单个样式：
+// 第一个参数表示：样式属性名称
+// 第二个参数表示：样式属性值
+$(selector).css("color", "red");
+设置多个样式：（也可以设置单个）
+// 参数为 {}（对象）
+$(selector).css({"color": "red", "font-size": "30px"});
+</code></pre></div>    </div>
+  </li>
+  <li>获取样式属性操作：
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 参数表示要获取的 样式属性名称
+var fs = $(selector).css("font-size");
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>类样式操作</strong></p>
+
+<ul>
+  <li>添加类样式：
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>作用：为指定元素添加类className
+$(selector).addClass("liItem");
+</code></pre></div>    </div>
+  </li>
+  <li>移除类样式：
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>作用：为指定元素移除类 className
+$(selector).removeClass("liItem");
+$(selector).removeClass(); 不指定参数，表示移除被选中元素的所有类
+</code></pre></div>    </div>
+  </li>
+  <li>判断有没有类样式：
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>作用：判断指定元素是否包含类 className
+var hasC = $(selector).hasClass("liItem");
+此时，会返回true或false
+</code></pre></div>    </div>
+  </li>
+  <li>切换类样式：
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>作用：为指定元素切换类 className，该元素有类则移除，没有指定类则添加。
+$(selector).toggleClass("liItem");
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>链式编程 和 隐式迭代</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$("li").parent("ul").parent("div").siblings("div").children("div").html("内容");
+链式编程原理：return this;
+通常情况下，只有设置操作才能把链式编程延续下去。因为获取操作的时候，会返回获取到的相应的值，无法返回 this。
+end(); // 结束当前链最近的一次过滤操作，并且返回匹配元素之前的一次状态。
+隐式迭代
+// 设置操作
+$("div").css("color", "red");
+// 获取操作
+$("div").css("color"); // 返回第一个元素的值
+隐式迭代的意思是：在方法的内部会为匹配到的所有元素进行循环遍历，执行相应的方法；
+而不用我们再进行循环，简化我们的操作，方便我们调用。
+</code></pre></div></div>
 
 <!-- zanshang -->
 <div>
@@ -345,13 +451,13 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
 
                 <ul class="pager">
                     
-                    <li class="previous">
-                        <a href="/2017/08/07/talk-vue-angular/" data-toggle="tooltip" data-placement="top" title="Vue与Angular的撕逼">
-                        Previous<br>
-                        <span>Vue与Angular的撕逼</span>
+                    
+                    <li class="next">
+                        <a href="/2016/11/27/standard/" data-toggle="tooltip" data-placement="top" title="代码规范">
+                        Next<br>
+                        <span>代码规范</span>
                         </a>
                     </li>
-                    
                     
                 </ul>
 
