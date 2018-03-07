@@ -5,15 +5,15 @@
     <description>刷牙洗脸敲代码 | 这里是 ZGX 张冠雄 的个人博客。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Mar 2018 23:43:35 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Mar 2018 23:43:35 +0800</lastBuildDate>
+    <pubDate>Wed, 07 Mar 2018 11:41:02 +0800</pubDate>
+    <lastBuildDate>Wed, 07 Mar 2018 11:41:02 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>2017年个人总结</title>
         <description>&lt;p&gt;前几天，在朋友圈、知乎看到了好多的年终总结。元旦旅游回来赫然在今天的to do list写上年终总结。当然，我并不是跟风，从大一开始我每年都有写年终总结，不同的是在那个博客时代我只是把文字写在了QQ空间，而在这个自媒体时代我选择了个人博客。回顾自己一年的得失与成长，看到过去一年的点点滴滴也是一种享受。当然，在外人看来或许会说矫情，或许会感到虚无缥缈，不过在我看来确是实实在在的。&lt;/p&gt;
 
-&lt;p&gt;在我的&lt;a href=&quot;http://www.zgx.ac.cn/2017/01/02/sunmery2016/&quot;&gt;2016个人总结&lt;/a&gt;里，给自己定了几个计划。很遗憾Github上commit图还是依旧空白，专业书还在积灰。幸运的是不断维护着自己的博客，坚持着跑步，参加了全马，也出门旅行。&lt;/p&gt;
+&lt;p&gt;在我的&lt;a href=&quot;http://www.bearcoco.com/2017/01/02/sunmery2016/&quot;&gt;2016个人总结&lt;/a&gt;里，给自己定了几个计划。很遗憾Github上commit图还是依旧空白，专业书还在积灰。幸运的是不断维护着自己的博客，坚持着跑步，参加了全马，也出门旅行。&lt;/p&gt;
 
 &lt;h2 id=&quot;1&quot;&gt;1&lt;/h2&gt;
 
@@ -356,7 +356,7 @@
         <title>在windows上安装Jekyll</title>
         <description>&lt;p&gt;前面安装jekyll是在公司的mac上进行安装的，而家里的是windows系统的笔记本，所以要发表博客的话肯定要安装好环境了，但windows的安装又跟mac的不一样。折腾了一下，感觉是比在mac上安装来得麻烦。以下呢？就是在windows上安装jekyll的步骤以及一些可能遇到的问题。&lt;/p&gt;
 
-&lt;p&gt;首先呢在这里就不再介绍jekyll是什么了，可以访问前面写的&lt;a href=&quot;http://www.zgx.ac.cn/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;首先呢在这里就不再介绍jekyll是什么了，可以访问前面写的&lt;a href=&quot;http://bearcoco.com/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;搭建jekyll基本都满足如下步骤:&lt;/p&gt;
 &lt;ul&gt;
@@ -423,7 +423,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;再不能访问请检查_config.yml配置文件是否需要修改。&lt;/p&gt;
 
-&lt;p&gt;部署到Github pages请移驾到&lt;a href=&quot;http://www.zgx.ac.cn/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;部署到Github pages请移驾到&lt;a href=&quot;http://www.bearcoco.com/2017/05/15/mac-jekyll/&quot;&gt;在mac上安装Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 May 2017 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2017/05/17/windows-jekyll/</link>
@@ -541,7 +541,7 @@ git push origin master
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/21868-188b926c62db15e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;CNAME记录&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;后记&quot;&gt;后记&lt;/h3&gt;
-&lt;p&gt;稍等几分钟，刷新自己的博客地址，我的博客域名是&lt;a href=&quot;http://www.zgx.ac.cn/&quot;&gt;zgx.ac.cn&lt;/a&gt;，就能直接访问了。
+&lt;p&gt;稍等几分钟，刷新自己的博客地址，我的博客域名是&lt;a href=&quot;http://bearcoco.com/&quot;&gt;bearcoco.com&lt;/a&gt;，就能直接访问了。
 差不多就这样了，之后你可以在_posts文件夹里继续撰写博文，然后按照上面步骤上传到github即可。&lt;/p&gt;
 
 </description>

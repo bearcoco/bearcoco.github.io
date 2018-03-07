@@ -13,7 +13,7 @@ tags:
 ---
 前面安装jekyll是在公司的mac上进行安装的，而家里的是windows系统的笔记本，所以要发表博客的话肯定要安装好环境了，但windows的安装又跟mac的不一样。折腾了一下，感觉是比在mac上安装来得麻烦。以下呢？就是在windows上安装jekyll的步骤以及一些可能遇到的问题。
 
-首先呢在这里就不再介绍jekyll是什么了，可以访问前面写的[在mac上安装Jekyll](http://www.zgx.ac.cn/2017/05/15/mac-jekyll/)
+首先呢在这里就不再介绍jekyll是什么了，可以访问前面写的[在mac上安装Jekyll](http://bearcoco.com/2017/05/15/mac-jekyll/)
 
 搭建jekyll基本都满足如下步骤:
 - 安装ruby(2.0.0以上)，并且安装DevKit。
@@ -83,4 +83,4 @@ gem install jekyll-paginate
 ```
 再不能访问请检查_config.yml配置文件是否需要修改。
 
-部署到Github pages请移驾到[在mac上安装Jekyll](http://www.zgx.ac.cn/2017/05/15/mac-jekyll/)
+部署到Github pages请移驾到[在mac上安装Jekyll](http://www.bearcoco.com/2017/05/15/mac-jekyll/)

@@ -122,7 +122,7 @@ git push origin master
 ![CNAME记录](http://upload-images.jianshu.io/upload_images/21868-188b926c62db15e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 后记
-稍等几分钟，刷新自己的博客地址，我的博客域名是[zgx.ac.cn](http://www.zgx.ac.cn/)，就能直接访问了。
+稍等几分钟，刷新自己的博客地址，我的博客域名是[bearcoco.com](http://bearcoco.com/)，就能直接访问了。
 差不多就这样了，之后你可以在_posts文件夹里继续撰写博文，然后按照上面步骤上传到github即可。
 
 
