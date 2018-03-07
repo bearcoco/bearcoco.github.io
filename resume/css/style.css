@@ -299,7 +299,7 @@ h3.clr3{
 }
 .skill1, .skill2 {
   float: left;
-  width: 50%;
+  
 }
 .skill1 ul li,.skill2 ul li{
 	font-size:0.85em;
