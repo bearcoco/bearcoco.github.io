@@ -63,11 +63,11 @@ kramdown:
 
 # Analytics settings
 # Baidu Analytics 
-ba_track_id: de1ce458db68d7a3d74998a4cc6e6c4f
+# ba_track_id: 
 
 # Google Analytics
-ga_track_id: 'UA-79793350-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.bearcoco.com 
+# ga_track_id: ''            # Format: UA-xxxxxx-xx
+# ga_domain: www.bearcoco.com 
 
 
 
@@ -92,14 +92,14 @@ service-worker: true
 
 # Friends
 friends: [    
-    # {   
-    #     title: "Hux Blog",   
-    #     href: "http://huangxuan.me"   
-    # },
-    # {   
-    #     title: "Teng Blog",   
-    #     href: "http://tengblog.com/"    
-    # },
+    {   
+        title: "Hux Blog",   
+        href: "http://huangxuan.me"   
+    },
+    {   
+        title: "Teng Blog",   
+        href: "http://tengblog.com/"    
+    },
     {   
       title: "前端-为网而生",   
       href: "http://beforweb.com/front-end"    
